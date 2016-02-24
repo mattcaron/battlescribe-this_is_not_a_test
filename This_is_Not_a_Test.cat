@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="12" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="13" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -259,33 +259,6 @@
             </link>
           </links>
         </entry>
-        <entry id="26ab-5df7-9839-a94a" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="cf60-0559-bab0-a766" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="9a88-b6c4-6338-c835" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="3e0f-03fb-b84a-5686" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="8d0a-c0df-8b6a-f4c7" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="409a-c74e-e8c6-e333" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="62ff-81df-2460-fefc" targetId="87d1-1fa7-113a-6421" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
       </entries>
       <entryGroups/>
       <modifiers>
@@ -314,6 +287,9 @@
         <link id="0f93-8f45-cec9-ad30" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
+        <link id="3ea2-b1e6-4f72-2cf7" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="7068-f517-e197-47d2" name="Alpha Mutant" points="45.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -335,33 +311,6 @@
               <modifiers/>
             </link>
             <link id="5e1d-febe-6093-4b9b" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c190-1f60-c253-7eb1" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4c34-c064-1740-ff3e" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="203e-a7fc-6391-2512" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="c93c-a31b-c03e-ebbe" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="7666-f3e1-b100-c3de" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="bbe1-05ce-d39e-f4a9" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="5f70-19ed-cdd3-41ba" targetId="87d1-1fa7-113a-6421" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -398,6 +347,9 @@
           <modifiers/>
         </link>
         <link id="34ec-134e-0ca8-ec57" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="525c-77e7-8d96-cd13" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -697,33 +649,6 @@
             </link>
           </links>
         </entry>
-        <entry id="a462-8864-9cf0-f70d" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ce07-6800-7eda-ffd6" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="631f-97d5-7ffe-a77d" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="48fb-1d1b-3b47-474a" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="d7e8-cc32-510a-6c3e" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="095a-60f8-9890-5fc8" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="912c-72e3-4292-e11c" targetId="87d1-1fa7-113a-6421" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
       </entries>
       <entryGroups/>
       <modifiers>
@@ -759,6 +684,9 @@
           <modifiers/>
         </link>
         <link id="f83c-c17d-1d70-3f86" targetId="5634-0808-038a-c85e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5c37-fa99-85d5-4ab1" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1329,33 +1257,6 @@
             </link>
           </links>
         </entry>
-        <entry id="4c14-fec3-663b-cf23" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4aad-d443-3377-f478" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="a6b7-ffb0-8d9b-5b35" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="a134-8ed6-eb62-24c1" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="7c0e-6b7d-22a8-697a" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="06f2-55dd-275c-a731" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="4d9e-a4dc-dba8-417d" targetId="87d1-1fa7-113a-6421" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
       </entries>
       <entryGroups/>
       <modifiers>
@@ -1399,6 +1300,9 @@
         <link id="825f-d2fd-9d26-ca2e" targetId="cc2f-0d72-75c4-2240" linkType="entry">
           <modifiers/>
         </link>
+        <link id="2bcd-d19f-dee4-8ec9" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="d88b-ad7f-adc5-715f" name="Mutant" points="27.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1417,33 +1321,6 @@
               <modifiers/>
             </link>
             <link id="4dd4-4f9e-dc37-7a4a" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2822-f7bc-40ba-211a" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5aa5-7f42-6e03-32b6" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="10da-c943-552f-2d4f" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="a403-018b-b7e6-74d0" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="ca84-e10c-d66a-a1ba" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="155c-860c-07a0-ea26" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="0991-4c54-8c05-44d3" targetId="87d1-1fa7-113a-6421" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -1482,6 +1359,9 @@
         <link id="0f7a-e1ed-4d8f-3d21" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
+        <link id="d44f-57eb-4133-b2a1" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="63e4-0856-b172-7ff9" name="Mutant Emissary" points="45.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1506,33 +1386,6 @@
               <modifiers/>
             </link>
             <link id="5f2d-459c-b12c-fecb" targetId="fb15-030f-7253-0a4a" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="da3e-1b82-0ad5-311b" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d265-d2f3-9049-3c3f" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="6755-f053-f649-f693" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="a30f-79aa-151e-7867" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="8e32-7db8-2851-74ff" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="56a6-df6b-a32d-6891" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="09f0-a2c8-5577-eb43" targetId="87d1-1fa7-113a-6421" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -1565,6 +1418,9 @@
         <link id="a523-a9fd-4032-d2da" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
+        <link id="0e60-105a-8731-0677" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c73e-d9b4-ef87-3f31" name="Mutant Gunner" points="35.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1583,33 +1439,6 @@
               <modifiers/>
             </link>
             <link id="7209-d381-0dee-55a5" targetId="7a03-dd72-3924-0e94" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b034-142f-4d8b-d348" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="73e4-5d7f-5cd1-cad4" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="12b9-6964-8fd0-7ace" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="c90b-b933-4fd4-cb88" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="ced7-8564-cab3-f297" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="bef5-f7f3-3205-75a7" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="414d-fcbe-cb0d-5e76" targetId="87d1-1fa7-113a-6421" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -1649,6 +1478,9 @@
           <modifiers/>
         </link>
         <link id="2e02-0ce2-78fc-e93c" targetId="5ca8-0de1-427c-6961" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6db5-ccb1-d346-52c4" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1738,33 +1570,6 @@
             </link>
           </links>
         </entry>
-        <entry id="d7f1-b086-bbda-3d6a" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a61c-4407-37ff-d83a" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="759e-aece-067a-e4f2" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="228b-f346-3c88-5efb" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="f020-aca3-3e43-4c28" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="361d-e68c-01c8-c8d9" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="fa88-db58-d2c4-061a" targetId="87d1-1fa7-113a-6421" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
       </entries>
       <entryGroups/>
       <modifiers>
@@ -1797,6 +1602,9 @@
           <modifiers/>
         </link>
         <link id="c82b-c88f-584e-7399" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="dc5a-b8c3-c054-60f6" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1889,33 +1697,6 @@
             </link>
           </links>
         </entry>
-        <entry id="72f3-dfc3-5f3d-2650" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="49d1-43ef-b4a2-b268" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="1c74-e94f-2e06-34a4" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="992e-78eb-5b5f-20bd" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="b240-0f3c-9d8f-f00c" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="555c-257e-fea6-0559" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="c5af-5d74-be0d-fd8c" targetId="87d1-1fa7-113a-6421" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
       </entries>
       <entryGroups/>
       <modifiers>
@@ -1950,6 +1731,9 @@
         <link id="3748-accc-5c6c-023b" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
+        <link id="b9da-00f1-e09b-e9da" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="3224-fff1-7430-2754" name="Psychic Mutant" points="27.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1968,33 +1752,6 @@
               <modifiers/>
             </link>
             <link id="bffc-cd1d-e978-42fe" targetId="7a03-dd72-3924-0e94" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="40fb-619c-230e-eb6e" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="86cb-4018-1497-3d59" targetId="c39c-654c-75b8-49da" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="c3da-7f8d-cdfa-977d" targetId="3c4e-ec7c-85fb-af2a" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="d03b-01ff-d6cc-f14a" targetId="285a-caa2-e648-8680" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="1142-d5a8-89f3-a4f6" targetId="822d-691c-f830-4c04" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="2e9f-ec04-309e-3cdb" targetId="2fea-f79c-3b5f-ad1b" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="4f98-f418-c33d-105a" targetId="87d1-1fa7-113a-6421" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -2034,6 +1791,9 @@
           <modifiers/>
         </link>
         <link id="7fc2-f136-4ea6-3d3a" targetId="b4d1-791e-5d2b-5a39" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4a95-daad-14ca-690b" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3327,7 +3087,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="6ac4-8c1c-f0c0-ab3b" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6ac4-8c1c-f0c0-ab3b" name="Mutations" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3515,6 +3275,14 @@
         </link>
       </links>
     </entry>
+    <entry id="3c21-d70c-6cad-8f05" name="Steady Hands" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="f65e-e86a-a3d3-dcb4" name="Strong Point" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -3583,14 +3351,6 @@
       </links>
     </entry>
     <entry id="30a9-e1d2-2efa-383a" name="Wasteland Deck Redraw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="TNT" page="98">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="3c21-d70c-6cad-8f05" name="Steady Hands" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
