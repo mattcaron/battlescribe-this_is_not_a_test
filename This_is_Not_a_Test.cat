@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="11" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="12" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -423,9 +423,6 @@
             <link id="b963-4064-aca5-6dfb" targetId="e41a-d379-5a4d-5205" linkType="entry">
               <modifiers/>
             </link>
-            <link id="526b-ac12-386d-e02b" targetId="5ca8-0de1-427c-6961" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -454,6 +451,9 @@
           <modifiers/>
         </link>
         <link id="1f3a-597b-6e50-6cdf" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1e1c-da31-dae1-961a" targetId="5ca8-0de1-427c-6961" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1648,7 +1648,7 @@
         <link id="c232-225a-2201-31e7" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
-        <link id="72f6-2203-c689-d397" targetId="5ca8-0de1-427c-6961" linkType="entry">
+        <link id="2e02-0ce2-78fc-e93c" targetId="5ca8-0de1-427c-6961" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2436,7 +2436,7 @@
             <link id="d31e-fe0d-0bec-dbb8" targetId="3481-b3df-24cf-ce82" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="82b5-4cec-40f8-9382" targetId="5ca8-0de1-427c-6961" linkType="entry">
+            <link id="5bba-31cd-1acb-66dc" targetId="3c21-d70c-6cad-8f05" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2469,7 +2469,7 @@
         <link id="7c6a-663d-fdf1-7a9f" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
-        <link id="85e5-9f53-93c7-5a7d" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+        <link id="0121-cb2f-7619-b98b" targetId="5ca8-0de1-427c-6961" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2782,9 +2782,6 @@
             <link id="de30-6de7-0c1e-33b0" targetId="482a-2304-2878-7a3a" linkType="entry">
               <modifiers/>
             </link>
-            <link id="227f-4ff5-e352-b088" targetId="5ca8-0de1-427c-6961" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -2816,6 +2813,9 @@
           <modifiers/>
         </link>
         <link id="7e98-8597-7923-c21b" targetId="30a9-e1d2-2efa-383a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="eeb4-373e-1ce7-5c81" targetId="5ca8-0de1-427c-6961" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3576,9 +3576,21 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="f4a5-9ba2-df1b-3ef7" targetId="09e5-083b-0b05-4d3f" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="30a9-e1d2-2efa-383a" name="Wasteland Deck Redraw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="TNT" page="98">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="3c21-d70c-6cad-8f05" name="Steady Hands" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
