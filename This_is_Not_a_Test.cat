@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="13" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="14" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -534,9 +534,6 @@
             <link id="a1b0-13f3-9725-727b" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="6dbc-6145-fbbd-bc16" targetId="9d2c-d61e-5cd2-6234" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -569,6 +566,9 @@
           <modifiers/>
         </link>
         <link id="82c9-7a92-73ca-d948" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3f48-ed5e-c068-461c" targetId="9d2c-d61e-5cd2-6234" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -644,9 +644,6 @@
             <link id="c7ef-492a-47bd-670c" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="9080-0861-608c-e4b4" targetId="8b3d-5515-7cac-1179" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -687,6 +684,9 @@
           <modifiers/>
         </link>
         <link id="5c37-fa99-85d5-4ab1" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3c98-92c7-2456-335d" targetId="8b3d-5515-7cac-1179" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -848,12 +848,6 @@
             <link id="d0b2-c937-0938-ad53" targetId="893e-51e9-0ebb-449a" linkType="entry">
               <modifiers/>
             </link>
-            <link id="c60a-2faa-bfaa-af34" targetId="fb15-030f-7253-0a4a" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="c0c0-0114-f5c8-efbd" targetId="e5f8-c465-011e-e243" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -885,6 +879,12 @@
           <modifiers/>
         </link>
         <link id="da74-0d34-fab3-5c3f" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7f44-6924-24e3-891d" targetId="e5f8-c465-011e-e243" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7d6c-716d-8e88-14d3" targetId="fb15-030f-7253-0a4a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1385,9 +1385,6 @@
             <link id="bbc9-a051-3ab5-05c3" targetId="3481-b3df-24cf-ce82" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="5f2d-459c-b12c-fecb" targetId="fb15-030f-7253-0a4a" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -1419,6 +1416,9 @@
           <modifiers/>
         </link>
         <link id="0e60-105a-8731-0677" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="91ad-9d8d-9428-e0e0" targetId="104f-8b17-3959-0ce1" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2305,9 +2305,6 @@
             <link id="8a4e-d75e-4ee7-ce54" targetId="51b0-230d-043d-e42e" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="8c63-14b0-471e-a2d5" targetId="8b3d-5515-7cac-1179" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -2339,6 +2336,9 @@
           <modifiers/>
         </link>
         <link id="0b82-72a2-c606-c8db" targetId="23de-32c9-3d5a-82a8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b5b7-ed19-37c0-9753" targetId="8b3d-5515-7cac-1179" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2654,9 +2654,6 @@
             <link id="d1d9-d5f3-0d18-2934" targetId="9674-c228-ed04-df10" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="b2a2-a0e2-6393-b033" targetId="8b3d-5515-7cac-1179" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -2688,6 +2685,9 @@
           <modifiers/>
         </link>
         <link id="b36d-0916-7568-85a2" targetId="23de-32c9-3d5a-82a8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4bec-d802-a512-ed4b" targetId="8b3d-5515-7cac-1179" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3351,6 +3351,14 @@
       </links>
     </entry>
     <entry id="30a9-e1d2-2efa-383a" name="Wasteland Deck Redraw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="TNT" page="98">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="104f-8b17-3959-0ce1" name="Medic (Optional)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
