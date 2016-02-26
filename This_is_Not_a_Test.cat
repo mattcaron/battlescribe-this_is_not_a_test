@@ -928,10 +928,10 @@
         <link id="aa94-2792-a918-d276" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="bc98-6a88-dd93-611b" targetId="f95c-2562-69c1-a7e3" linkType="entry group">
+        <link id="b6a0-0a5b-7ccb-3988" targetId="d584-375f-8f4b-04c7" linkType="entry">
           <modifiers/>
         </link>
-        <link id="b6a0-0a5b-7ccb-3988" targetId="3bbc-64e2-91ad-3d5f" linkType="entry">
+        <link id="2d4f-08d3-00f9-f04c" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2022,7 +2022,7 @@
         </link>
       </links>
     </entry>
-    <entry id="df0f-f8b6-a0d3-ecdc" name="Sacrifical Lamb" points="18.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="df0f-f8b6-a0d3-ecdc" name="Sacrifical Lamb" points="18.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="181b-e734-d2a5-d369" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2067,7 +2067,7 @@
         <link id="9899-c6b8-08e3-ce1f" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
-        <link id="8a5e-7f04-c2a8-f311" targetId="22eb-bb6c-6955-8320" linkType="entry">
+        <link id="6e55-20c3-2950-f49f" targetId="83c3-34a1-f2bf-a014" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3021,6 +3021,14 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="104f-8b17-3959-0ce1" name="Medic (Optional)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="80ec-2488-91ab-8afb" name="Melee Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -3032,41 +3040,6 @@
           <modifiers/>
         </link>
         <link id="acbe-db30-8a6c-f3d4" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3bbc-64e2-91ad-3d5f" name="Melee Weapons (Natural Only)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="d45a-aa87-7b2f-ac82" name="Natural Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="22eb-bb6c-6955-8320" name="Melee Weapons (Sacrificial Lamb)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="b148-0fbe-d3e2-e582" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="59e8-4231-6b1d-c34b" targetId="f4fc-4fe7-60ab-640f" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="bf80-d7d0-9f5c-deca" targetId="f52b-547d-2828-d9a7" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -3131,7 +3104,7 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="5634-0808-038a-c85e" name="Natural Weapons (Feral Mutant)" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5634-0808-038a-c85e" name="Natural Weapons (Optional)" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="ad25-c3db-e950-33dd" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
           <entries/>
@@ -3358,13 +3331,30 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="104f-8b17-3959-0ce1" name="Medic (Optional)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="83c3-34a1-f2bf-a014" name="Melee Weapons (Sacrificial Lamb)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="8686-82e1-4d74-06aa" targetId="f4fc-4fe7-60ab-640f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8b86-b3db-e12a-238d" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7eb3-a17b-c72b-f213" targetId="f52b-547d-2828-d9a7" linkType="entry group">
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="df0f-f8b6-a0d3-ecdc" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -4134,7 +4124,7 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="f52b-547d-2828-d9a7" name="Free Melee Weapons (Sacrificial Lamb)" defaultEntryId="36a4-1261-64d1-aab1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="f52b-547d-2828-d9a7" name="Entry Special Weapons (Sacrificial Lamb)" defaultEntryId="36a4-1261-64d1-aab1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="a1f7-d5cb-05d3-a997" name="Heavy Weapon" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
