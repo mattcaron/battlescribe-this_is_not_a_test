@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="16" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="17" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -1908,6 +1908,9 @@
         <link id="6db5-ccb1-d346-52c4" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="34f5-0e84-c1b9-25cb" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="87a2-28f9-c514-46bd" name="Officer" points="20.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2758,6 +2761,9 @@
         <link id="0121-cb2f-7619-b98b" targetId="5ca8-0de1-427c-6961" linkType="entry">
           <modifiers/>
         </link>
+        <link id="f7af-1ff5-20ec-b436" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="8f43-37f9-7e4b-75d9" name="Tech-Bearer" points="25.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3190,6 +3196,9 @@
           <modifiers/>
         </link>
         <link id="eeb4-373e-1ce7-5c81" targetId="5ca8-0de1-427c-6961" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c2f8-027b-4d3c-3c50" targetId="da6a-ab5f-84b6-5731" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4089,7 +4098,11 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="9ca9-c667-28e2-44e2" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="30a9-e1d2-2efa-383a" name="Wasteland Deck Redraw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="TNT" page="98">
       <entries/>
