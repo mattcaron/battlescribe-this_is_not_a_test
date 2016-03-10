@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="17" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="18" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -471,6 +471,71 @@
         </link>
       </links>
     </entry>
+    <entry id="eb14-c7f2-acf7-4226" name="Bandit King" points="80.0" categoryId="2742-f6e0-6cfd-0438" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ca21-3001-db95-c5bb" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5ad7-5cc2-88f6-d74e" targetId="8496-7b94-9dba-201f" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="ff83-460f-31af-c7ff" targetId="7a03-dd72-3924-0e94" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="e0c0-83a5-27cb-cb5e" targetId="0f68-ea4f-fb64-d003" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="bd70-855d-c39c-b772" targetId="9674-c228-ed04-df10" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="26db-460b-d2f6-cb5d" targetId="51b0-230d-043d-e42e" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="7f57-d544-213a-a9b3" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="2349-40d2-869b-3df9" targetId="6086-b5d3-003c-6350" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="5a9d-39b9-0e78-274b" targetId="3481-b3df-24cf-ce82" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="53aa-bee0-04dc-357c" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4f6b-6d24-def1-15f1" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="63f7-3cc0-8e7f-3db5" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0d16-6dca-f156-4cb4" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c7c8-4ceb-e97c-9000" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="a735-86e2-11a0-ec9d" name="Berserker" points="32.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="80db-d237-73a2-71aa" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -569,6 +634,124 @@
           <modifiers/>
         </link>
         <link id="ce1c-2785-6b66-0c96" targetId="1ade-9713-87bd-c979" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bc66-0259-d8e2-07cc" name="Broiler" points="40.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="48ca-f4e8-7be3-2296" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="206c-7b16-b533-cd23" targetId="51b0-230d-043d-e42e" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="1cc1-fdab-0114-b972" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="c79b-75fc-4fe2-fe29" targetId="0f68-ea4f-fb64-d003" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="1c09-880d-b62c-c67a" targetId="33a0-0fed-918d-a713" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7ee7-bc6f-328b-d211" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d574-7675-a69b-3767" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="352f-6255-cada-1df3" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2e15-ba42-116f-cbd3" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2b01-2367-c59d-2991" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="935b-597f-cc27-b91b" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e3ac-9edb-4f47-671b" targetId="1b80-cecb-4a85-fee2" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b6c0-991c-86b7-38ff" name="Brute" points="50.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="77d2-84f9-ee3f-c9f8" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="88e7-6737-f79b-d88a" targetId="9674-c228-ed04-df10" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="ba11-7256-0315-770c" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="cdc9-2b5d-1751-dd1b" targetId="6086-b5d3-003c-6350" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="ae03-02a1-5a5b-dc8c" targetId="b1b6-8d94-93e5-cb71" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3194-dd1c-c706-dc1c" targetId="7749-54be-6c0e-a551" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="55eb-dcf8-879d-77e7" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="904a-aef7-c824-dbf0" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="571a-652e-a10c-f652" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4518-3c1d-ed7f-31b6" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e81e-83ce-a02a-618b" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ddd4-3e4e-c4d9-3e83" targetId="5e80-54bd-f595-2939" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1522,6 +1705,59 @@
         </link>
       </links>
     </entry>
+    <entry id="909a-50a4-ffff-ff0d" name="Maniac" points="27.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="b302-4bbb-e4f6-9f7d" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="84d1-28ed-e2e0-5639" targetId="9674-c228-ed04-df10" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="09ef-ba4f-f5f7-6580" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="b325-efd4-a8b9-8008" targetId="6086-b5d3-003c-6350" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="1c35-7517-dc09-5e8a" targetId="1281-3595-4d35-2fe9" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e40a-db0c-7997-094b" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5376-ffa2-e876-4cad" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2730-86b3-1502-8e33" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e7a8-1fdc-d7d7-e1ac" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b66d-0a00-0fba-e55e" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="77d3-8088-bfd7-8072" name="Mercenary Gunsmith" points="50.0" categoryId="7ad0-7249-819b-cc4c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="d2a2-1df2-3237-16c2" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1721,6 +1957,53 @@
         </link>
       </links>
     </entry>
+    <entry id="6a99-8edc-5e02-1a9a" name="Mongrel" points="18.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="dbd0-ca47-7043-fc0b" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8681-f754-8834-1454" targetId="6086-b5d3-003c-6350" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="2af9-5a30-1b67-f060" targetId="0f68-ea4f-fb64-d003" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="e01b-9394-3c26-6989" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="c7ba-5555-9ace-7089" targetId="7ec6-b91d-a109-a1e2" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e1ab-c97d-a2b0-fd8d" targetId="377f-b510-c24c-ae46" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7384-6ff4-3583-c054" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cd72-c519-f134-e03d" targetId="d584-375f-8f4b-04c7" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="d88b-ad7f-adc5-715f" name="Mutant" points="27.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="ac48-3738-8fe6-c835" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1909,6 +2192,59 @@
           <modifiers/>
         </link>
         <link id="34f5-0e84-c1b9-25cb" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6781-3188-8c3f-d135" name="Mutant Raider" points="27.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="19f9-fbd1-fff7-6008" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3d48-90c0-2217-f3b9" targetId="51b0-230d-043d-e42e" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="b22f-876e-609c-64ee" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="0298-e703-3f58-1699" targetId="7a03-dd72-3924-0e94" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="28ba-7e44-c88e-bd32" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="53ca-f502-d465-54e5" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3a0b-6364-bd04-4e97" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="602d-dde8-fbfa-8180" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0673-a45e-9cb3-ec3d" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4514-bce4-0991-fc7d" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2275,6 +2611,109 @@
           <modifiers/>
         </link>
         <link id="7633-4476-e7dd-cfda" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="35cf-eec5-b09b-5a22" name="Raider" points="20.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="2795-228c-781d-eed3" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e306-a933-5491-8664" targetId="7a03-dd72-3924-0e94" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="c45a-4bcb-396e-10a0" targetId="51b0-230d-043d-e42e" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="d8af-8a88-3007-3609" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fe8a-0c5c-4e04-6ae7" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3afd-4503-f346-87c2" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9671-7e3e-0bd4-9802" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ce7d-0af9-202c-bf76" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cf1d-1f62-0e64-75dd" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5d84-0427-42d7-99eb" name="Raider Champion" points="50.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0bb5-4011-a610-9bc7" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d3e5-7059-a905-c7fc" targetId="9674-c228-ed04-df10" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="4e7c-7bde-2a6c-e940" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="a2e7-b6e1-8d0d-82c8" targetId="6086-b5d3-003c-6350" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="ef28-7e41-14be-c466" targetId="8496-7b94-9dba-201f" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="53ec-8506-e3cd-fcc0" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ea99-0d3c-cda8-0e21" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1f5f-0915-6002-af98" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="04bf-774b-93b5-d134" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6d0c-6848-2579-ccb7" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2653,6 +3092,65 @@
           <modifiers/>
         </link>
         <link id="4d6e-2c55-c2a5-a74d" targetId="fb15-030f-7253-0a4a" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0d35-0ed7-662e-58dc" name="Scrap-taker" points="30.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ad46-39af-a3cc-2018" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3962-7a4d-2b6c-ba1a" targetId="51b0-230d-043d-e42e" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="0138-be4f-723c-f5c9" targetId="7a03-dd72-3924-0e94" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="3675-eeed-3784-5d47" targetId="3481-b3df-24cf-ce82" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5ce7-085e-68c4-0c2e" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ca33-9c6e-3d22-dd7f" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5fff-5b80-a745-61fb" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f281-1112-dfb3-4353" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="93f7-4b84-594b-a84b" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0345-eb83-c3b7-ee61" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1565-aec9-b4eb-a15a" targetId="5ca8-0de1-427c-6961" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="606b-a204-c3a4-0c77" targetId="da6a-ab5f-84b6-5731" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3250,6 +3748,68 @@
         </link>
       </links>
     </entry>
+    <entry id="08fc-9dc1-c70a-9a9f" name="Warlord" points="80.0" categoryId="2742-f6e0-6cfd-0438" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="84ef-c4a5-7415-a41e" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1e8d-0199-9a22-bc58" targetId="8496-7b94-9dba-201f" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="e590-2af9-f762-35c7" targetId="7a03-dd72-3924-0e94" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="fd26-5bd8-a7b4-53b9" targetId="0f68-ea4f-fb64-d003" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="c30d-9716-74c5-07f0" targetId="9674-c228-ed04-df10" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="65ed-9513-fafa-d008" targetId="51b0-230d-043d-e42e" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="7b76-3e6c-2c6d-4534" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
+              <modifiers/>
+            </link>
+            <link id="b40c-3aa2-66cd-bce1" targetId="6086-b5d3-003c-6350" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="eed3-2eca-dcac-ce88" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8d7e-2d77-97c8-de82" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1098-3bd1-4e8c-d3b3" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a2b2-f234-5908-2661" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d052-208d-305a-0080" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="4a10-8973-b2db-4b5c" name="Warrior" points="18.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="d725-3011-e35c-868a" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3408,566 +3968,6 @@
           <modifiers/>
         </link>
         <link id="29aa-591f-2e4f-83b7" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="08fc-9dc1-c70a-9a9f" name="Warlord" points="80.0" categoryId="2742-f6e0-6cfd-0438" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="84ef-c4a5-7415-a41e" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1e8d-0199-9a22-bc58" targetId="8496-7b94-9dba-201f" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="e590-2af9-f762-35c7" targetId="7a03-dd72-3924-0e94" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="fd26-5bd8-a7b4-53b9" targetId="0f68-ea4f-fb64-d003" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="c30d-9716-74c5-07f0" targetId="9674-c228-ed04-df10" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="65ed-9513-fafa-d008" targetId="51b0-230d-043d-e42e" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="7b76-3e6c-2c6d-4534" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="b40c-3aa2-66cd-bce1" targetId="6086-b5d3-003c-6350" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="eed3-2eca-dcac-ce88" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8d7e-2d77-97c8-de82" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1098-3bd1-4e8c-d3b3" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a2b2-f234-5908-2661" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d052-208d-305a-0080" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="eb14-c7f2-acf7-4226" name="Bandit King" points="80.0" categoryId="2742-f6e0-6cfd-0438" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ca21-3001-db95-c5bb" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5ad7-5cc2-88f6-d74e" targetId="8496-7b94-9dba-201f" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="ff83-460f-31af-c7ff" targetId="7a03-dd72-3924-0e94" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="e0c0-83a5-27cb-cb5e" targetId="0f68-ea4f-fb64-d003" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="bd70-855d-c39c-b772" targetId="9674-c228-ed04-df10" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="26db-460b-d2f6-cb5d" targetId="51b0-230d-043d-e42e" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="7f57-d544-213a-a9b3" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="2349-40d2-869b-3df9" targetId="6086-b5d3-003c-6350" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="5a9d-39b9-0e78-274b" targetId="3481-b3df-24cf-ce82" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="53aa-bee0-04dc-357c" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4f6b-6d24-def1-15f1" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="63f7-3cc0-8e7f-3db5" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="0d16-6dca-f156-4cb4" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c7c8-4ceb-e97c-9000" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b6c0-991c-86b7-38ff" name="Brute" points="50.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="77d2-84f9-ee3f-c9f8" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="88e7-6737-f79b-d88a" targetId="9674-c228-ed04-df10" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="ba11-7256-0315-770c" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="cdc9-2b5d-1751-dd1b" targetId="6086-b5d3-003c-6350" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="ae03-02a1-5a5b-dc8c" targetId="b1b6-8d94-93e5-cb71" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3194-dd1c-c706-dc1c" targetId="7749-54be-6c0e-a551" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="55eb-dcf8-879d-77e7" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="904a-aef7-c824-dbf0" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="571a-652e-a10c-f652" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4518-3c1d-ed7f-31b6" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e81e-83ce-a02a-618b" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ddd4-3e4e-c4d9-3e83" targetId="5e80-54bd-f595-2939" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5d84-0427-42d7-99eb" name="Raider Champion" points="50.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="0bb5-4011-a610-9bc7" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d3e5-7059-a905-c7fc" targetId="9674-c228-ed04-df10" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="4e7c-7bde-2a6c-e940" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="a2e7-b6e1-8d0d-82c8" targetId="6086-b5d3-003c-6350" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="ef28-7e41-14be-c466" targetId="8496-7b94-9dba-201f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="53ec-8506-e3cd-fcc0" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ea99-0d3c-cda8-0e21" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1f5f-0915-6002-af98" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="04bf-774b-93b5-d134" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6d0c-6848-2579-ccb7" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="35cf-eec5-b09b-5a22" name="Raider" points="20.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="2795-228c-781d-eed3" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e306-a933-5491-8664" targetId="7a03-dd72-3924-0e94" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="c45a-4bcb-396e-10a0" targetId="51b0-230d-043d-e42e" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="d8af-8a88-3007-3609" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="fe8a-0c5c-4e04-6ae7" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="3afd-4503-f346-87c2" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="9671-7e3e-0bd4-9802" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ce7d-0af9-202c-bf76" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="cf1d-1f62-0e64-75dd" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6a99-8edc-5e02-1a9a" name="Mongrel" points="18.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="dbd0-ca47-7043-fc0b" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8681-f754-8834-1454" targetId="6086-b5d3-003c-6350" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="2af9-5a30-1b67-f060" targetId="0f68-ea4f-fb64-d003" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="e01b-9394-3c26-6989" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="c7ba-5555-9ace-7089" targetId="7ec6-b91d-a109-a1e2" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="e1ab-c97d-a2b0-fd8d" targetId="377f-b510-c24c-ae46" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7384-6ff4-3583-c054" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="cd72-c519-f134-e03d" targetId="d584-375f-8f4b-04c7" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="909a-50a4-ffff-ff0d" name="Maniac" points="27.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="b302-4bbb-e4f6-9f7d" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="84d1-28ed-e2e0-5639" targetId="9674-c228-ed04-df10" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="09ef-ba4f-f5f7-6580" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="b325-efd4-a8b9-8008" targetId="6086-b5d3-003c-6350" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="1c35-7517-dc09-5e8a" targetId="1281-3595-4d35-2fe9" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="e40a-db0c-7997-094b" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5376-ffa2-e876-4cad" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2730-86b3-1502-8e33" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e7a8-1fdc-d7d7-e1ac" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b66d-0a00-0fba-e55e" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6781-3188-8c3f-d135" name="Mutant Raider" points="27.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="19f9-fbd1-fff7-6008" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3d48-90c0-2217-f3b9" targetId="51b0-230d-043d-e42e" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="b22f-876e-609c-64ee" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="0298-e703-3f58-1699" targetId="7a03-dd72-3924-0e94" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="28ba-7e44-c88e-bd32" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="53ca-f502-d465-54e5" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="3a0b-6364-bd04-4e97" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="602d-dde8-fbfa-8180" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="0673-a45e-9cb3-ec3d" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="4514-bce4-0991-fc7d" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="bc66-0259-d8e2-07cc" name="Broiler" points="40.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="48ca-f4e8-7be3-2296" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="206c-7b16-b533-cd23" targetId="51b0-230d-043d-e42e" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="1cc1-fdab-0114-b972" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="c79b-75fc-4fe2-fe29" targetId="0f68-ea4f-fb64-d003" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="1c09-880d-b62c-c67a" targetId="33a0-0fed-918d-a713" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7ee7-bc6f-328b-d211" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d574-7675-a69b-3767" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="352f-6255-cada-1df3" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2e15-ba42-116f-cbd3" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2b01-2367-c59d-2991" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="935b-597f-cc27-b91b" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e3ac-9edb-4f47-671b" targetId="1b80-cecb-4a85-fee2" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0d35-0ed7-662e-58dc" name="Scrap-taker" points="30.0" categoryId="8e1d-f802-edf5-1ac2" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ad46-39af-a3cc-2018" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3962-7a4d-2b6c-ba1a" targetId="51b0-230d-043d-e42e" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="0138-be4f-723c-f5c9" targetId="7a03-dd72-3924-0e94" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="3675-eeed-3784-5d47" targetId="3481-b3df-24cf-ce82" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="roster" childId="0ec1-5c97-3ed8-5a79" field="selections" type="less than" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="5ce7-085e-68c4-0c2e" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ca33-9c6e-3d22-dd7f" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5fff-5b80-a745-61fb" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f281-1112-dfb3-4353" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="93f7-4b84-594b-a84b" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="0345-eb83-c3b7-ee61" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1565-aec9-b4eb-a15a" targetId="5ca8-0de1-427c-6961" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="606b-a204-c3a4-0c77" targetId="da6a-ab5f-84b6-5731" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4132,7 +4132,23 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="33a0-0fed-918d-a713" name="Brave" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="b1b6-8d94-93e5-cb71" name="Brute" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="7749-54be-6c0e-a551" name="Bully" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4228,6 +4244,22 @@
       <links/>
     </entry>
     <entry id="e821-0628-ed8e-8705" name="Field-Strip" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="1b80-cecb-4a85-fee2" name="Flamethrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="7757-4444-ada8-ef64" name="Frenzied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4721,38 +4753,6 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="7749-54be-6c0e-a551" name="Bully" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="7757-4444-ada8-ef64" name="Frenzied" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="33a0-0fed-918d-a713" name="Brave" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="1b80-cecb-4a85-fee2" name="Flamethrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="f95c-2562-69c1-a7e3" name="Armor" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5202,7 +5202,7 @@
     </entryGroup>
     <entryGroup id="285a-caa2-e648-8680" name="Detrimental Mutations (Hidden)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0378-7641-b2fc-4673" name="Atrophied Muscles" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0378-7641-b2fc-4673" name="Atrophied Muscles" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5210,7 +5210,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="64cf-ef70-2eba-1128" name="Daylight Sensitivity" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="64cf-ef70-2eba-1128" name="Daylight Sensitivity" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5218,7 +5218,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="9cce-4418-f951-9615" name="Frailty" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9cce-4418-f951-9615" name="Frailty" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5226,7 +5226,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="9bcc-bfc5-93b9-61b7" name="Rotted Mind" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9bcc-bfc5-93b9-61b7" name="Rotted Mind" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5234,7 +5234,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="0456-2e48-4292-3f4d" name="Unending Pain" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0456-2e48-4292-3f4d" name="Unending Pain" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5242,7 +5242,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="77f2-6df7-a6c6-d8d3" name="Weakening Sight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="77f2-6df7-a6c6-d8d3" name="Weakening Sight" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5257,7 +5257,7 @@
     </entryGroup>
     <entryGroup id="87d1-1fa7-113a-6421" name="Detrimental Mutations (Physical)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="526b-989d-70d9-b3bd" name="Atrophied Arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="526b-989d-70d9-b3bd" name="Atrophied Arm" points="-7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5265,7 +5265,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="2114-6b60-24da-7163" name="Inert Twin" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2114-6b60-24da-7163" name="Inert Twin" points="-7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5273,7 +5273,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="253a-9f30-9206-63b1" name="No Arms" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="253a-9f30-9206-63b1" name="No Arms" points="-7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5281,7 +5281,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="ddbb-bf27-35d8-6a41" name="No Legs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ddbb-bf27-35d8-6a41" name="No Legs" points="-7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5289,7 +5289,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="0168-a738-8e02-fe31" name="Obese" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0168-a738-8e02-fe31" name="Obese" points="-7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5297,7 +5297,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="2b19-c2a0-d5af-9aff" name="Stumpy Leg" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2b19-c2a0-d5af-9aff" name="Stumpy Leg" points="-7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
