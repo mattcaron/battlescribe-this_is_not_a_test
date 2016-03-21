@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="22" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="23" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -1219,19 +1219,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="3e9c-1be1-4af5-3752" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="3e9c-1be1-4af5-3752" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="e88e-9866-a9cc-84ed" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="e88e-9866-a9cc-84ed" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="c1bb-ae63-a824-d4e2" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="c1bb-ae63-a824-d4e2" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="07e7-5375-ba96-a7c5" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="07e7-5375-ba96-a7c5" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="08ca-496a-b446-670e" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="08ca-496a-b446-670e" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="9acc-4d8a-8bc5-aaf9" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -1514,19 +1514,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="f018-4418-a2f6-3bc7" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="f018-4418-a2f6-3bc7" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="2666-be06-9169-64b9" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="2666-be06-9169-64b9" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="b69a-334f-9a74-8bdb" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="b69a-334f-9a74-8bdb" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="6b68-1922-d21d-d50c" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="6b68-1922-d21d-d50c" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="736c-ceef-9bf3-eefb" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="736c-ceef-9bf3-eefb" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="1021-e662-02b5-44e8" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -1567,19 +1567,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="e3ae-b991-ba8b-ca75" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="e3ae-b991-ba8b-ca75" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="602a-2ca7-108f-11b2" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="602a-2ca7-108f-11b2" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="3ee6-e91a-645e-5d95" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="3ee6-e91a-645e-5d95" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="0329-144e-cdfd-abce" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="0329-144e-cdfd-abce" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="9b35-d6ac-fbca-512d" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="9b35-d6ac-fbca-512d" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="d672-0da5-f17e-183e" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -1645,19 +1645,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="5dd4-ec54-56a0-a4cf" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="5dd4-ec54-56a0-a4cf" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="4312-b232-168c-fb6b" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="4312-b232-168c-fb6b" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="0987-d890-d83b-202c" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="0987-d890-d83b-202c" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="280f-a0d5-ec08-55d3" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="280f-a0d5-ec08-55d3" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="1677-d01d-bd2d-96d5" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="1677-d01d-bd2d-96d5" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="0278-377e-9bd5-bc60" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -1707,16 +1707,16 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="4e91-46b9-f74a-eb9a" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="4e91-46b9-f74a-eb9a" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="dd54-0577-19f0-3332" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="dd54-0577-19f0-3332" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="7744-aa62-b4bc-71c3" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="7744-aa62-b4bc-71c3" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="db85-727b-089b-8904" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="db85-727b-089b-8904" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="9320-d234-77d0-1b0e" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -1728,7 +1728,7 @@
         <link id="58db-f5d9-b5af-09d8" targetId="efe7-eb9a-449b-bae5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="7e06-3bcb-ac9c-7875" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="7e06-3bcb-ac9c-7875" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2451,19 +2451,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="a208-d322-2ee4-cc1a" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="a208-d322-2ee4-cc1a" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="0f15-09c1-d574-522b" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="0f15-09c1-d574-522b" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="053e-881b-5cf3-800d" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="053e-881b-5cf3-800d" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="c20b-fd4e-5167-936f" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="c20b-fd4e-5167-936f" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="49a2-5090-c726-fa13" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="49a2-5090-c726-fa13" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="e5d1-4b23-cfa4-e5d9" targetId="6ce9-67d5-befd-911f" linkType="entry">
@@ -3193,19 +3193,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="4eaa-068e-b1f5-597f" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="4eaa-068e-b1f5-597f" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="5138-625f-1020-1c5e" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="5138-625f-1020-1c5e" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="8a0a-32dd-81aa-f13e" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="8a0a-32dd-81aa-f13e" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="d669-07aa-c0d9-1d49" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="d669-07aa-c0d9-1d49" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="49c0-6172-75c5-3497" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="49c0-6172-75c5-3497" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="57b7-8b11-f890-30ff" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -3246,19 +3246,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="cf3e-b519-85af-8781" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="cf3e-b519-85af-8781" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="67dc-aa75-3684-9e0c" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="67dc-aa75-3684-9e0c" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="a681-4098-b05b-be49" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="a681-4098-b05b-be49" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="9125-1f52-2d79-22b8" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="9125-1f52-2d79-22b8" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="13e6-f601-e307-c6ac" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="13e6-f601-e307-c6ac" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="b077-84ed-ad2b-3e6a" targetId="05f6-43c1-d967-f1ad" linkType="entry">
@@ -3475,19 +3475,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="9c9f-0d0c-f361-8292" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="9c9f-0d0c-f361-8292" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="cc13-eaf9-0cf1-abb0" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="cc13-eaf9-0cf1-abb0" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="923a-8b29-78be-9859" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="923a-8b29-78be-9859" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="fec7-0de4-86ab-758a" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="fec7-0de4-86ab-758a" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="a032-e537-34a5-6641" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="a032-e537-34a5-6641" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="f1a9-764f-abfc-8679" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -4301,19 +4301,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="7681-bd04-bb09-c1c4" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="7681-bd04-bb09-c1c4" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="196f-8f97-e890-16cd" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="196f-8f97-e890-16cd" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="3d42-8077-fa3a-1754" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="3d42-8077-fa3a-1754" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="f430-ff1c-e17b-a147" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="f430-ff1c-e17b-a147" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="3f2f-e226-166e-773c" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="3f2f-e226-166e-773c" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="7460-3e9c-8c33-62ba" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -5366,19 +5366,19 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="a29c-e2a9-350c-44eb" targetId="2b81-efe8-37f7-6d67" linkType="entry">
+        <link id="a29c-e2a9-350c-44eb" targetId="5b30-6224-be08-82c5" linkType="entry">
           <modifiers/>
         </link>
-        <link id="b2bd-b959-319d-87ef" targetId="5486-006f-985f-b937" linkType="entry">
+        <link id="b2bd-b959-319d-87ef" targetId="dbf1-12c8-26bc-c509" linkType="entry">
           <modifiers/>
         </link>
-        <link id="8666-4386-eedd-136c" targetId="f9c0-6a44-dc0d-0621" linkType="entry">
+        <link id="8666-4386-eedd-136c" targetId="80ec-2488-91ab-8afb" linkType="entry">
           <modifiers/>
         </link>
-        <link id="ce73-ac6a-c8e1-87b6" targetId="84a2-bc4e-1dff-66b8" linkType="entry">
+        <link id="ce73-ac6a-c8e1-87b6" targetId="a699-ccf1-1fbb-3455" linkType="entry">
           <modifiers/>
         </link>
-        <link id="b78e-a7ce-0956-2832" targetId="55af-3a0b-d0c9-cf68" linkType="entry">
+        <link id="b78e-a7ce-0956-2832" targetId="fe43-e479-eb34-ec33" linkType="entry">
           <modifiers/>
         </link>
         <link id="393f-1bd7-e251-0ee6" targetId="6ac4-8c1c-f0c0-ab3b" linkType="entry">
@@ -5435,6 +5435,16 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="9bb0-c357-f346-e7cd" targetId="1a60-dd4c-d8c4-91f9" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="377f-b510-c24c-ae46" name="Armor (Animals)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5445,31 +5455,6 @@
       <profiles/>
       <links>
         <link id="6903-c569-0662-8164" targetId="5d41-60dc-03f8-64cc" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="2b81-efe8-37f7-6d67" name="Armor (Mutant Cannibals)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="0978-5fef-cfc4-60b9" targetId="f95c-2562-69c1-a7e3" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="408c-147e-aef1-ffad" targetId="188c-396f-9e6a-b976" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="4764-afa3-38ee-c3b5" targetId="1a60-dd4c-d8c4-91f9" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -5655,30 +5640,21 @@
             </modifier>
           </modifiers>
         </link>
-      </links>
-    </entry>
-    <entry id="5486-006f-985f-b937" name="Equipment (Mutant Cannibals)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="206a-1960-8eb4-846c" targetId="f21e-f2f9-c9bb-b900" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="3e11-20f1-589c-451f" targetId="c9e7-89ff-4532-1b54" linkType="entry group">
+        <link id="1a91-1db5-bee2-c76a" targetId="bf0c-1357-3b5f-9bce" linkType="entry group">
           <modifiers>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
-        </link>
-        <link id="4cbb-bca0-e0ea-b5ee" targetId="bf0c-1357-3b5f-9bce" linkType="entry group">
-          <modifiers/>
         </link>
       </links>
     </entry>
@@ -5767,30 +5743,21 @@
             </modifier>
           </modifiers>
         </link>
-      </links>
-    </entry>
-    <entry id="55af-3a0b-d0c9-cf68" name="Grenades (Mutant Cannibals)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="085f-04c8-aa4c-0ed4" targetId="6c01-a3c0-d31d-6f2e" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="1248-8270-6915-cbc3" targetId="a8e4-60b5-80c5-19b6" linkType="entry group">
+        <link id="c433-2caf-f16f-4cec" targetId="8142-9768-264b-a1cc" linkType="entry group">
           <modifiers>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
-        </link>
-        <link id="3ede-4f52-cde9-4c49" targetId="8142-9768-264b-a1cc" linkType="entry group">
-          <modifiers/>
         </link>
       </links>
     </entry>
@@ -5926,30 +5893,21 @@
             </modifier>
           </modifiers>
         </link>
-      </links>
-    </entry>
-    <entry id="f9c0-6a44-dc0d-0621" name="Melee Weapons (Mutant Cannibals)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="bcdb-da75-5d26-769b" targetId="f4fc-4fe7-60ab-640f" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="bbc7-e97a-9ce2-7a4c" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
+        <link id="bcc9-e09a-138f-9f28" targetId="83d8-5b73-3ba2-f2b4" linkType="entry group">
           <modifiers>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
-        </link>
-        <link id="e484-eef1-fedb-d03c" targetId="83d8-5b73-3ba2-f2b4" linkType="entry group">
-          <modifiers/>
         </link>
       </links>
     </entry>
@@ -6203,33 +6161,21 @@
             </modifier>
           </modifiers>
         </link>
-      </links>
-    </entry>
-    <entry id="84a2-bc4e-1dff-66b8" name="Ranged Weapons (Mutant Cannibals)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="8216-98aa-f2ce-28f2" targetId="84dc-0480-79fe-65a1" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="da6d-235f-2692-215b" targetId="188c-bc39-2711-054c" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="7ba5-4f58-da53-2bad" targetId="64af-11f8-6eec-6ca2" linkType="entry group">
+        <link id="a3bc-c6c3-da15-63f6" targetId="ca3f-f990-7823-049d" linkType="entry group">
           <modifiers>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="c089-6aee-b95b-9b92" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
-        </link>
-        <link id="09ca-e06b-35e8-52e7" targetId="ca3f-f990-7823-049d" linkType="entry group">
-          <modifiers/>
         </link>
       </links>
     </entry>
