@@ -1,7 +1,33 @@
 Introduction
 =============
 
-TODO - words go here.
+These datafiles are for the This is Not a Test post-apocalyptic
+skirmish miniatures game inspired by such movies and games as: Mad
+Max, Fallout and S.T.A.L.K.E.R.. It can be as wacky and off the wall
+or as serious and dark as you want it to be - it's all in how you play
+it.
+
+Welcome to the wasteland, friend.
+
+Resources
+=========
+
+The rules, miniatures and supplements can be
+found at:
+
+http://worldsendpublishing.com/
+
+The Facebook group is full of helpful and supportive folks and can be
+found here:
+
+https://www.facebook.com/groups/905688146148353/
+
+Acknowledgements
+================
+
+* Joseph McGuire for writing the game.
+* Ian O'Brien for getting this project started.
+* All the members of the TNT Facebook group who helped fing bugs.
 
 TODO List
 =========
@@ -19,6 +45,7 @@ General
    type. This is important because of the limits on how many of
    various types that you can have.
 6. Page references for.. well.. everything.
+7. Add weapons statistics (Okay per conversation w/ Joey)
 
 Preservers
 -----------
