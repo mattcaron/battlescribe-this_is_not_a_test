@@ -46,6 +46,9 @@ General
    various types that you can have.
 6. Page references for.. well.. everything.
 7. Add weapons statistics (Okay per conversation w/ Joey)
+8. Verify and implement that big models can't wear some armor.
+9. Go through the wasteland draw deck and add in all the things people
+   might be able to get as part of a campaign.
 
 Preservers
 -----------
