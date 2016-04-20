@@ -5535,7 +5535,7 @@
         </link>
       </links>
     </entry>
-    <entry id="14a0-92b3-ec38-071f" name="Wreck-It-Bot" points="80.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="14a0-92b3-ec38-071f" name="Wreck-It-Bot" points="80.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="f0a8-ad75-413d-70e9" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5564,13 +5564,30 @@
             </link>
           </links>
         </entry>
+        <entry id="cf2b-3dc5-c897-2fba" name="Special Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8ea8-396b-1b36-04e2" targetId="e5f8-c465-011e-e243" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers>
         <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="dd65-390a-1aff-a90c" field="selections" type="less than" value="1.0"/>
-            <condition parentId="roster" childId="263c-b422-13bc-0866" field="selections" type="less than" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="263c-b422-13bc-0866" field="selections" type="at least" value="1.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
