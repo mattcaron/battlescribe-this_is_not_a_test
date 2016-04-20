@@ -94,12 +94,7 @@ World's End Publishing, LLC. Go buy the book for the stats.
 Bugs
 ====
 
-Campaign Progression
---------------------
-
-1. The "or" case for hiding "Model became a mutant" doesn't currently
-   work, so it shows for everything, even mutants. I believe this is a
-   Battlescribe bug. Workaround: Ignore it for mutants.
+None known.
 
 Notes
 ======
