@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="29" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="30" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -6302,14 +6302,6 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="dc3e-afd7-0cd1-7d37" name="Large Caliber" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="5ec0-086c-81ec-2a8b" name="Leap" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -9283,7 +9275,51 @@
       <entries>
         <entry id="2a82-48c1-17b4-2be3" name="Assault Rifle" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="e8e2-1320-ed67-c772" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="9ec7-ca7f-1152-5f54" name="Large Caliber" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="3dc4-858d-ad30-43be" targetId="b289-4cb4-3ddc-520c" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="be70-941c-cf76-0f82" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9294,18 +9330,55 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="bc28-55ad-89f0-ccf2" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="851a-9c38-3a4e-b359" targetId="b289-4cb4-3ddc-520c" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="acc9-2a2a-63d1-9dbd" name="Rifle" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="b71d-9220-26e7-929f" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="4456-34b5-8166-c1b1" name="Large Caliber" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="86f5-54f4-1f33-04a3" targetId="b289-4cb4-3ddc-520c" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="a46c-f97b-d149-1ace" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9316,18 +9389,45 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="4678-e9a0-6af8-f89c" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="1ee5-0bf0-24e3-a8ce" targetId="b289-4cb4-3ddc-520c" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="7027-6d91-e93a-f4e4" name="Compound Bow" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="8935-90a3-871f-8ab0" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="d503-4e2f-d8cf-dccb" name="Large Caliber" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="bc0d-0856-a574-e3b3" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9338,15 +9438,31 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="dac3-27dc-e18f-96f0" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="d887-550d-a716-476b" name="Machine Pistol" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="2e3f-d317-90c2-0692" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="c90d-4467-b6ff-1a0f" name="Large Caliber" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="0b8f-0018-c558-f82e" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9357,15 +9473,45 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="c242-baab-30af-1c7c" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="c81f-459d-9f8d-4a05" name="Pistol (Revolver)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="af50-1132-d6eb-9eee" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="2e61-a856-e09c-3dc5" name="Large Caliber" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="a369-2731-604d-356a" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9376,15 +9522,55 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="7dce-247e-4b36-1d0d" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="cf58-75fd-714a-b60d" name="Shotgun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="d4c3-cbc3-3fe1-4ae2" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="56a5-3f51-b904-380b" name="Large Caliber" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="9696-82cc-5d59-8d3c" targetId="b289-4cb4-3ddc-520c" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="3afa-af2d-da4d-cc18" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9395,18 +9581,45 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="06d1-f75f-3b44-c9a5" targetId="b289-4cb4-3ddc-520c" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="8fed-c621-8d42-e10d" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="fb52-0710-0981-46d0" name="Submachine Gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="c7d8-207b-6665-0672" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="1b31-8688-3f1a-7cd4" name="Large Caliber" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="95c2-a094-30a3-98d0" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9417,15 +9630,45 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="6305-a541-a30b-96c3" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="d646-52a3-fe6f-df5c" name="Sniper Rifle" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="912f-bb8a-86e0-be96" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="1972-16df-6f45-6020" name="Large Caliber" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="cea4-1723-5442-741f" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9436,15 +9679,61 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="f958-e8c1-baf7-c1b3" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="3ede-f878-7588-3cb2" name="Full-Auto Shotgun (G)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="df0d-efe1-04e0-ea13" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="1445-4203-7982-6cab" name="Large Caliber" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="cbd4-408d-ec74-49dc" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="7f7a-a435-5114-c3cb" targetId="b289-4cb4-3ddc-520c" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9455,15 +9744,67 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="621a-2a22-e5dd-86a1" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="f44b-e4bc-7372-e38c" name="Modern Battle Rifle (G)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="ee55-fc7e-2445-1e16" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="d84d-2988-7ce4-a859" name="Large Caliber" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="58e9-db5a-f182-4f34" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="dc49-04b7-7bf8-5a1a" targetId="b289-4cb4-3ddc-520c" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9474,15 +9815,73 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="4601-1db3-b8fa-f6ac" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="4286-3675-f11d-96d1" name="Modern Sporting Rifle (G)" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="b0f8-ece6-9a5d-8ead" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="9e9f-abbf-5440-c187" name="Large Caliber" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="e135-b1c5-e3fc-e483" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="f4f9-f087-af5d-e6ed" targetId="b289-4cb4-3ddc-520c" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9493,15 +9892,45 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="840f-e089-3548-5080" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="3131-d196-5ba1-8893" name="Semi-Auto Carbine (G)" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="59e7-68b8-6c36-7697" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="9eed-ecce-227d-afd3" name="Large Caliber" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="485e-0212-9368-0c29" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9512,15 +9941,45 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="6a91-7be8-056b-5a4e" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="8d01-53f5-e656-a82d" name="Semi-Auto Pistol (G)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="f1b7-9a0d-b803-515f" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="4f0d-d3ef-7d45-2b70" name="Large Caliber" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="5421-12f8-ab65-407c" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9531,15 +9990,61 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="9a7e-4dcf-b7ca-ad31" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="8e01-cb05-4da9-96e5" name="Semi-Auto Rifle (G)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="8232-e437-2f75-4abf" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="00fc-b4e6-b188-e3a6" name="Large Caliber" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="9e3a-0a92-d7a4-ee43" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="43d0-2b77-b02c-120a" targetId="b289-4cb4-3ddc-520c" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9550,15 +10055,45 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="aa6a-cf5e-ff1b-318b" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="c52c-c048-eec4-eed2" name="Semi-Auto Sniper Rifle (G)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="3d44-76cf-24f5-4fda" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="097f-8b3d-ea22-82ff" name="Large Caliber" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="30e3-295b-3342-8ec1" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9569,15 +10104,61 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="6860-889f-69cd-5af1" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="555b-e136-7662-b6a3" name="Semi-Auto Shotgun (G)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="2615-f14d-861d-7c0c" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="bbc0-b068-2257-1c32" name="Large Caliber" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="45aa-99c0-0779-f86c" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+                <link id="30ae-0591-1e10-98c3" targetId="b289-4cb4-3ddc-520c" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions>
+                        <condition parentId="direct parent" childId="ae74-2ed0-5849-79e3" field="selections" type="instance of" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -9588,11 +10169,7 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="a72b-d049-e4a3-8d6d" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -10906,14 +11483,7 @@
       <entries/>
       <entryGroups/>
       <modifiers/>
-      <links>
-        <link id="c180-8017-2ac8-a011" targetId="dc3e-afd7-0cd1-7d37" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b873-10e4-fedb-51bd" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entryGroup>
     <entryGroup id="e0f1-3aab-a9d2-819c" name="XP" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
