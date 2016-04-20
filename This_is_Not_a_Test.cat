@@ -10430,7 +10430,16 @@
     <entryGroup id="84dc-0480-79fe-65a1" name="Primitive Ranged Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="596a-b95c-90e9-c949" name="Bow" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="5d2c-a11d-b513-264e" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10442,14 +10451,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="f861-c199-c1fb-ccf8" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="80e1-0ba7-4cf1-1c2e" name="Crossbow" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="9932-0a44-4047-0ec1" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10461,14 +10475,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="dd92-7127-6f9b-69a0" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="ee84-2eb5-88cc-558c" name="Aerosol Gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="1104-6c5a-d4a2-6a83" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10480,14 +10499,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="eacc-26af-8fc4-5cc2" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="44f1-07d6-dcba-b56d" name="Black Powder Pistol" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="3bff-ff9d-39b8-07dc" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10499,14 +10523,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="5e35-1679-a67d-5416" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="7ad2-0444-83ea-61c9" name="Blunderbuss" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="81c9-1753-bf1b-6882" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10518,14 +10547,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="e660-4876-3970-b414" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="57af-650d-084e-c1ee" name="Crossbow Pistol" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="ee65-2965-0a94-2247" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10537,14 +10571,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="2d5a-38aa-78bc-4394" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="918d-967b-73ec-5e9f" name="Musket" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="a583-cb65-5e1c-6df4" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10557,16 +10596,22 @@
           <rules/>
           <profiles/>
           <links>
-            <link id="9de9-9c5b-98be-75ca" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
             <link id="3f81-7fc5-587b-b88b" targetId="b289-4cb4-3ddc-520c" linkType="entry">
               <modifiers/>
             </link>
           </links>
         </entry>
         <entry id="1d38-1b47-f1ed-e288" name="Spear Gun" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="0ff1-f6e5-621a-e415" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10578,14 +10623,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="79fa-e6fe-e165-ac79" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="c89f-1a19-113e-dd36" name="Net Launcher" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="da3b-03d7-da47-c7a7" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10597,14 +10647,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="3ea2-78e2-ae2c-3fbc" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="b45a-a060-6ff6-2cf6" name="Spear Fisher" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="57bf-a800-4df3-70c2" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10616,14 +10671,19 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="a9f7-98a0-9679-a5e7" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
         <entry id="5ee7-5f5b-b534-36bf" name="Splatter Gun" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="f721-0d41-e91b-276e" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -10635,11 +10695,7 @@
           </modifiers>
           <rules/>
           <profiles/>
-          <links>
-            <link id="d700-2a35-523b-205b" targetId="aa90-1044-1791-02e8" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -11530,18 +11586,6 @@
           <links/>
         </entry>
       </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="0b3d-9d19-47f9-bbb3" name="Upgrade - Melee Weapon" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="aa90-1044-1791-02e8" name="Upgrade - Ranged Weapon" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
       <entryGroups/>
       <modifiers/>
       <links/>
