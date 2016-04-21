@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="32" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="33" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -6081,6 +6081,9 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="0cc4-438a-c3ba-1df3" targetId="f9d9-8d23-15c9-8f34" linkType="entry group">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="5c8c-64bf-ec48-f3a2" name="Cannibal Ambush" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6997,14 +7000,6 @@
           <links/>
         </entry>
         <entry id="4d4e-78f2-bd57-b845" name="+1 WDS" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="7b17-dbfc-8d88-68a3" name="+1 MET" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -11618,6 +11613,81 @@
           <links/>
         </entry>
         <entry id="02c3-a465-cdbd-db55" name="Unspent XP" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="f9d9-8d23-15c9-8f34" name="Promotions" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="eca8-1620-13a6-e5e2" name="Promoted to Specialist (+1MET)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="2742-f6e0-6cfd-0438" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="db17-468b-a4ab-158d" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="8e1d-f802-edf5-1ac2" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="3ee5-ddb7-a56a-5867" name="Promotion to Elite (+1 MET)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="db17-468b-a4ab-158d" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="2742-f6e0-6cfd-0438" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="b12e-408e-dd34-c88f" name="Additional Levels (+1 MET each)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>

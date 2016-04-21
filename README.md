@@ -39,15 +39,9 @@ General
 2. Limit on number of relics per model (p. 153)
 3. Limit on number of relics per warband (excluding inventory) (p.153)
 4. Limit on one of each relic per warband (p. 153)
-5. Promotions for campaign advancement.
- * Right now, what happens is that you can give a model all the
-   upgrades which it could buy, but there is no way to change its
-   type. This is important because of the limits on how many of
-   various types that you can have.
-6. Page references for.. well.. everything.
-7. Add weapons statistics (Okay per conversation w/ Joey)
-8. Verify and implement that big models can't wear some armor.
-9. Go through the wasteland draw deck and add in all the things people
+5. Page references for.. well.. everything.
+6. Add weapons statistics (Okay per conversation w/ Joey)
+7. Go through the wasteland draw deck and add in all the things people
    might be able to get as part of a campaign.
 
 Preservers
@@ -94,7 +88,21 @@ World's End Publishing, LLC. Go buy the book for the stats.
 Bugs
 ====
 
-None known.
+1. Promotions for campaign advancement doesn't change the "Category"
+   of the mini, and thus the validation for number of Elites won't
+   work, because you'll be able to take 3 Elites plus promote people
+   to be Elites on top of that. For now, the best I can do is record
+   the promotion and folks will manually have to keep track of how
+   many "promoted elites" they have.
+
+2. Limits on big models not being able to wear some armor.
+   This is not implemented because it is really difficult to implement
+   without reworking how Armor is grouped, which would make it
+   ugly. Thus, I am postponing adding this until a new version of
+   BattleScribe, which is supposed to be able to look further up the
+   chain than just "Direct Parent".
+
+
 
 Notes
 ======
