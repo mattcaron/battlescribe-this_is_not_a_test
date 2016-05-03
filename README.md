@@ -41,8 +41,6 @@ General
 4. Limit on one of each relic per warband (p. 153)
 5. Page references for.. well.. everything.
 6. Add weapons statistics (Okay per conversation w/ Joey)
-7. Go through the wasteland draw deck and add in all the things people
-   might be able to get as part of a campaign.
 
 Preservers
 -----------
