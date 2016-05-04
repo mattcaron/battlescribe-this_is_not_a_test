@@ -27,7 +27,7 @@ Acknowledgements
 
 * Joseph McGuire for writing the game.
 * Ian O'Brien for getting this project started.
-* All the members of the TNT Facebook group who helped fing bugs.
+* All the members of the TNT Facebook group who helped find bugs.
 
 TODO List
 =========
@@ -126,4 +126,27 @@ Mutant Cannibals
 * Critters are listed under Rank and File as if they were normal Rank
   and File Characters
 
+Promotions
+----------
 
+ * If a model gets promoted, it's under "Campaign Progression", under
+   "Promotions".
+
+ * For Rank and File models, there are tick boxes under "Equipment",
+   "Grenades", "Melee Weapons" and "Ranged Weapons" which say "Model
+   was promoted (Allow Relics)". Tick this box and the model will now
+   be able to take relics. Unfortunately, due to limitations in
+   BattleScribe, I can't have the show/hide key off of the Campaign
+   Progression selection, so I had to implement it
+   separately. Apologies.
+
+Wasteland Exploration
+---------------------
+
+ * For stuff which affects the whole warband, add the "Warband
+   Campaign Progression" item. It contains "Warband Exploration
+   Results".
+ * If, in the above, you tick the "Can We Keep It" box, it will now
+   show all the critters you can now take.
+ * For stuff which affects individual models, the "Warband Exploration
+   Results" are under "Campaign Progression".
