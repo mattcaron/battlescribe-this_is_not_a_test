@@ -6848,11 +6848,7 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="d01d-cf29-fefc-9c8d" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
             <entry id="ae86-a835-4f27-2568" name="Laser Carbine (R)" points="33.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -6860,11 +6856,7 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="e192-193a-085f-0814" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
             <entry id="6a7b-bda9-2fa5-4bc4" name="Laser Pistol (R)" points="23.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -6872,11 +6864,7 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="ef39-cec2-7eba-1142" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
             <entry id="cb01-b9ea-c752-2694" name="Plasma Pistol (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -6884,11 +6872,7 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="43c1-0a84-c93a-7916" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
             <entry id="8298-da54-63f6-492e" name="Plasma Rifle (R)" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -6896,11 +6880,7 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="dfe4-4302-d2e0-bf14" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
             <entry id="a7d8-8ba6-6a29-ac17" name="Thunder Gun (R)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -6908,11 +6888,7 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="8afd-9926-469d-c462" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
             <entry id="92bd-06ed-a700-6c22" name="Web Gun (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -6920,11 +6896,7 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="4d20-faa5-6f45-9d10" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
             <entry id="58ff-7021-417c-4fef" name="ZINGer (R)" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -6932,11 +6904,7 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="f4d5-45be-e8b4-ee49" targetId="3cfc-4267-3e75-d3ce" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
           </entries>
           <entryGroups/>
