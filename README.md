@@ -38,9 +38,8 @@ General
    assigned to them.
 2. Limit on number of relics per model (p. 153)
 3. Limit on number of relics per warband (excluding inventory) (p.153)
-4. Limit on one of each relic per warband (p. 153)
-5. Page references for.. well.. everything.
-6. Add weapons statistics (Okay per conversation w/ Joey)
+4. Page references for.. well.. everything.
+5. Add weapons statistics (Okay per conversation w/ Joey)
 
 Preservers
 -----------
@@ -62,6 +61,7 @@ Will not be implemented (and why)
 =================================
 
 ### Limits ###
+
 None of these will be implemented because they are starting limits,
 not overall limits, and adding them would break the ability to use the
 roster editor for keeping track of campaign advancement.
@@ -150,3 +150,41 @@ Wasteland Exploration
    show all the critters you can now take.
  * For stuff which affects individual models, the "Warband Exploration
    Results" are under "Campaign Progression".
+
+Relic Limits
+------------
+
+The logic for this is difficult, so I've aggregated it together below:
+
+p.60 and p.153
+
+ 1. Rank and File cannot have relics.
+    * This is implemented by hiding relics for models in category Rank and File.
+ 2. A warband can only have one of the same relic.
+    * This is implemented by setting maxInRoster to 1 for all Relics.
+ 3. A model can only have two relics.
+    * This is yet not implemented because aggregate limits are hard in
+      BattleScribe.
+ 4. A warband can only start with two relics.
+    * This won't be implemented because it breaks the use of
+    BattleScribe for tracking advancement.
+ 5. A warband can never take more than three relics into battle at any time.
+    * This won't be implemented because the way I implemented Warband
+      Inventory is to treat it like a model named "Warband Inventory".
+
+p.89 (Preservers warband special rules):
+
+ 1. Lorekeeper - "May start with one non-weapon relic for normal cost,
+    this relic does not count against the warband’s relic limit."
+    * Implemented by having a separate list for the Lorekeeper's
+      "Special" selection.
+ 2. Lord Reclaimer - "May start with one weapon relic for normal cost,
+    this relic does not count against the warband’s relic limit."
+    * Implemented by having a separate list for the Lord Reclaimer's
+      "Special" selection.
+ 3. Reclaimer - "Each Reclaimer in the warband may wear power armor
+    for the normal cost. An exception that allows more one of each
+    relic per warband and has no effect on the warband’s overall relic
+    limit. "
+    * Implemented by incrementing maxInForce by 1 for each Reclaimer
+      in warband for Power Armor.
