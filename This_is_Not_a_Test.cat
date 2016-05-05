@@ -6843,7 +6843,16 @@
         <entryGroup id="855b-ac40-3bd6-edbe" name="Relic Ranged Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="858e-493d-41ad-4577" name="Needler (R)" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="a2d2-7d21-c0a5-e957" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <rules/>
@@ -6851,7 +6860,16 @@
               <links/>
             </entry>
             <entry id="ae86-a835-4f27-2568" name="Laser Carbine (R)" points="33.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="0217-302a-6e74-c0eb" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <rules/>
@@ -6859,7 +6877,16 @@
               <links/>
             </entry>
             <entry id="6a7b-bda9-2fa5-4bc4" name="Laser Pistol (R)" points="23.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="bef7-ef40-3438-86f9" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <rules/>
@@ -6867,7 +6894,16 @@
               <links/>
             </entry>
             <entry id="cb01-b9ea-c752-2694" name="Plasma Pistol (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="3454-4a9a-edf0-1165" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <rules/>
@@ -6875,7 +6911,16 @@
               <links/>
             </entry>
             <entry id="8298-da54-63f6-492e" name="Plasma Rifle (R)" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="23dd-d3d9-4cb3-0449" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <rules/>
@@ -6883,7 +6928,16 @@
               <links/>
             </entry>
             <entry id="a7d8-8ba6-6a29-ac17" name="Thunder Gun (R)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="f891-d1fb-41e3-84cb" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <rules/>
@@ -6891,7 +6945,16 @@
               <links/>
             </entry>
             <entry id="92bd-06ed-a700-6c22" name="Web Gun (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="1d38-d22c-d843-6b0d" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <rules/>
@@ -6899,7 +6962,16 @@
               <links/>
             </entry>
             <entry id="58ff-7021-417c-4fef" name="ZINGer (R)" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="2bd3-6969-a4cc-ee31" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers/>
               <rules/>
@@ -12361,7 +12433,16 @@
     <entryGroup id="64af-11f8-6eec-6ca2" name="Relic Ranged Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="f830-2268-f165-f2e6" name="Needler (R)" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="38b9-5f8f-0bf5-e215" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
@@ -12369,7 +12450,16 @@
           <links/>
         </entry>
         <entry id="eba0-4a00-dbe9-ca1f" name="Laser Carbine (R)" points="33.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="9628-f6de-72ec-d958" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
@@ -12377,7 +12467,16 @@
           <links/>
         </entry>
         <entry id="bd22-c217-cdd7-11d5" name="Laser Pistol (R)" points="23.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="e461-2ce3-6f8e-3707" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
@@ -12385,7 +12484,16 @@
           <links/>
         </entry>
         <entry id="70ef-4124-49bd-dbfb" name="Plasma Pistol (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="e7d7-6397-7aa7-b87c" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
@@ -12393,7 +12501,16 @@
           <links/>
         </entry>
         <entry id="70cc-2dac-1cdf-c3c3" name="Plasma Rifle (R)" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="458a-4578-36be-4215" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
@@ -12401,7 +12518,16 @@
           <links/>
         </entry>
         <entry id="bf78-3514-476b-295b" name="Thunder Gun (R)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="2fec-ebc5-6a02-61e5" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
@@ -12409,7 +12535,16 @@
           <links/>
         </entry>
         <entry id="2326-902a-2092-97ca" name="Web Gun (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="dc85-2538-0f50-e2a2" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
@@ -12417,7 +12552,16 @@
           <links/>
         </entry>
         <entry id="1a0a-6777-e7a4-3886" name="ZINGer (R)" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+          <entries>
+            <entry id="4ce9-cd33-9119-a9e1" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
           <rules/>
