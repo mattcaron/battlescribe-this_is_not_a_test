@@ -176,12 +176,18 @@ p.89 (Preservers warband special rules):
 
  1. Lorekeeper - "May start with one non-weapon relic for normal cost,
     this relic does not count against the warband’s relic limit."
-    * Implemented by having a separate list for the Lorekeeper's
-      "Special" selection.
+    * HOWEVER - it DOES count against the "no duplicates" limit. (Per
+      Facebook group post by Joey)
+    * Implemented by not doing anything, since global duplicate relic
+      limit is implemented, and the starting relic limit isn't (and
+      won't be).
  2. Lord Reclaimer - "May start with one weapon relic for normal cost,
     this relic does not count against the warband’s relic limit."
-    * Implemented by having a separate list for the Lord Reclaimer's
-      "Special" selection.
+    * HOWEVER - it DOES count against the "no duplicates" limit. (Per
+      Facebook group post by Joey)
+    * Implemented by not doing anything, since global duplicate relic
+      limit is implemented, and the starting relic limit isn't (and
+      won't be).
  3. Reclaimer - "Each Reclaimer in the warband may wear power armor
     for the normal cost. An exception that allows more one of each
     relic per warband and has no effect on the warband’s overall relic
