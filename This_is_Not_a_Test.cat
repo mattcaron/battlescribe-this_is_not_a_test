@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="42" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="43" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -4245,6 +4245,23 @@
         </link>
       </links>
     </entry>
+    <entry id="adfb-b8d2-4352-e1a7" name="Roster Options" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="f94f-e754-c8e1-0e87" name="Use Gunbunny Weapon List" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="df0f-f8b6-a0d3-ecdc" name="Sacrifical Lamb" points="18.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="181b-e734-d2a5-d369" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5203,14 +5220,6 @@
         </link>
       </links>
     </entry>
-    <entry id="5128-798e-aa69-35f9" name="Use Gunbunny Weapon List" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="921d-88e2-ab34-498e" name="Veteran Scout" points="45.0" categoryId="7ad0-7249-819b-cc4c" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="20d5-9fe9-4095-a5ee" name="Skills" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5408,7 +5417,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3ce3-511d-3294-a18b" name="Warband Campaign Progression" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3ce3-511d-3294-a18b" name="Warband Campaign Progression" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5420,7 +5429,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ae74-2ed0-5849-79e3" name="Warband Inventory" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ae74-2ed0-5849-79e3" name="Warband Inventory" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -10244,7 +10253,7 @@
             </modifier>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="5128-798e-aa69-35f9" field="selections" type="less than" value="1.0"/>
+                <condition parentId="roster" childId="f94f-e754-c8e1-0e87" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10321,7 +10330,7 @@
             </modifier>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="5128-798e-aa69-35f9" field="selections" type="less than" value="1.0"/>
+                <condition parentId="roster" childId="f94f-e754-c8e1-0e87" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10404,7 +10413,7 @@
             </modifier>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="5128-798e-aa69-35f9" field="selections" type="less than" value="1.0"/>
+                <condition parentId="roster" childId="f94f-e754-c8e1-0e87" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10459,7 +10468,7 @@
             </modifier>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="5128-798e-aa69-35f9" field="selections" type="less than" value="1.0"/>
+                <condition parentId="roster" childId="f94f-e754-c8e1-0e87" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10514,7 +10523,7 @@
             </modifier>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="5128-798e-aa69-35f9" field="selections" type="less than" value="1.0"/>
+                <condition parentId="roster" childId="f94f-e754-c8e1-0e87" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10585,7 +10594,7 @@
             </modifier>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="5128-798e-aa69-35f9" field="selections" type="less than" value="1.0"/>
+                <condition parentId="roster" childId="f94f-e754-c8e1-0e87" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10640,7 +10649,7 @@
             </modifier>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="5128-798e-aa69-35f9" field="selections" type="less than" value="1.0"/>
+                <condition parentId="roster" childId="f94f-e754-c8e1-0e87" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -10711,7 +10720,7 @@
             </modifier>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="5128-798e-aa69-35f9" field="selections" type="less than" value="1.0"/>
+                <condition parentId="roster" childId="f94f-e754-c8e1-0e87" field="selections" type="less than" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
