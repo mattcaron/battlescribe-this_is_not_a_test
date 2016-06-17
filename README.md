@@ -1,3 +1,13 @@
+How do I use these files?
+=========================
+
+If you've found this, this is the "source code" for the This is Not a
+Test data files. If you just want to use these, just add following URL
+as a repository location:
+
+http://battlescribe.mattcaron.net/this_is_not_a_test/index.bsi
+
+
 Introduction
 =============
 
@@ -40,6 +50,7 @@ General
 3. Limit on number of relics per warband (excluding inventory) (p.153)
 4. Page references for.. well.. everything.
 5. Add weapons statistics (Okay per conversation w/ Joey)
+6. Add unit statistics (Also okay per conversation w/ Joey)
 
 Preservers
 -----------
@@ -78,10 +89,11 @@ ability to buy things with XP and have it properly decrement the
 Unspent XP, and make sure to use the correct XP amount based on Total
 XP is a whole lot of logic to shoehorn into BattleScribe.
 
-### Stats ###
+### Skill, Mutation, etc. descriptions ###
 
-Stats for most things will NOT be implemented, per the request of
-World's End Publishing, LLC. Go buy the book for the stats.
+These things will NOT be implemented, per the request of World's End
+Publishing, LLC. Go buy the book for the skill explanations, mutation
+descriptions, and fine examples of same.
 
 Bugs
 ====
