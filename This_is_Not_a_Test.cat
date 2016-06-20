@@ -7241,14 +7241,6 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="f65e-e86a-a3d3-dcb4" name="Strong Point" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
     <entry id="da6a-ab5f-84b6-5731" name="Support Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -8943,18 +8935,28 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="56f2-34bc-46a8-1b0a" name="Free Skill (Line Breaker)" defaultEntryId="c6c6-a841-1943-6a97" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
+    <entryGroup id="56f2-34bc-46a8-1b0a" name="Free Skill (Line Breaker)" defaultEntryId="e20c-afbd-5b31-966a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0d13-daa5-15b3-46ed" name="Strong Point" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="e20c-afbd-5b31-966a" name="Brute" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
-      <links>
-        <link id="c6c6-a841-1943-6a97" targetId="b1b6-8d94-93e5-cb71" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="6410-d7c9-5983-ad7e" targetId="f65e-e86a-a3d3-dcb4" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entryGroup>
     <entryGroup id="eab5-afa9-40ea-a4e0" name="General Abilities" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
