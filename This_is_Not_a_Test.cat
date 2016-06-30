@@ -4463,6 +4463,24 @@
         <link id="6822-d784-96e6-548b" targetId="da6a-ab5f-84b6-5731" linkType="entry">
           <modifiers/>
         </link>
+        <link id="0c35-a419-3be0-41d6" targetId="1658-1e76-702b-9b63" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="48d3-84eb-4b81-1e4d" targetId="d4e6-09a8-f3ef-0a68" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f787-2f9c-5dda-de4b" targetId="973b-200e-8596-cda3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c5f5-d775-1d5d-f411" targetId="31e1-6f90-5a8f-eefc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a92f-4267-965f-df7a" targetId="a2b9-a58f-9b3f-d2f4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1101-c51a-28b1-ca29" targetId="2a7e-5740-9d05-2e3b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="107b-c044-3d12-2ca8" name="Warbeast" points="0.0" categoryId="41a5-6287-0737-8014" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -4986,23 +5004,7 @@
       <links/>
     </entry>
     <entry id="5b30-6224-be08-82c5" name="Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="4110-fc38-22f5-bd89" name="Model was promoted (Allow Relics)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -5010,28 +5012,6 @@
       <links>
         <link id="7522-47ae-c315-0357" targetId="f95c-2562-69c1-a7e3" linkType="entry group">
           <modifiers/>
-        </link>
-        <link id="b3f8-9965-9d49-8ca5" targetId="188c-396f-9e6a-b976" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-                <condition parentId="5b30-6224-be08-82c5" childId="4110-fc38-22f5-bd89" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions/>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
@@ -5455,23 +5435,7 @@
       <links/>
     </entry>
     <entry id="dbf1-12c8-26bc-c509" name="Equipment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="0dde-a9de-9e65-0832" name="Model was promoted (Allow Relics)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -5479,28 +5443,6 @@
       <links>
         <link id="3cdb-2960-0ddb-d42d" targetId="f21e-f2f9-c9bb-b900" linkType="entry group">
           <modifiers/>
-        </link>
-        <link id="b01c-67f7-1b46-309a" targetId="c9e7-89ff-4532-1b54" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-                <condition parentId="dbf1-12c8-26bc-c509" childId="0dde-a9de-9e65-0832" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions/>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
@@ -5561,23 +5503,7 @@
       <links/>
     </entry>
     <entry id="fe43-e479-eb34-ec33" name="Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="7285-9cd3-fe95-c720" name="Model was promoted (Allow Relics)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -5585,28 +5511,6 @@
       <links>
         <link id="b43d-644d-9839-c44d" targetId="6c01-a3c0-d31d-6f2e" linkType="entry group">
           <modifiers/>
-        </link>
-        <link id="dfa2-a5f6-9d26-0282" targetId="a8e4-60b5-80c5-19b6" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-                <condition parentId="fe43-e479-eb34-ec33" childId="7285-9cd3-fe95-c720" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions/>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
@@ -5690,6 +5594,97 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="19e6-12c3-230c-5bcf" name="Loadout" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="8b3d-5515-7cac-1179" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f507-170c-eac6-212b" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="068e-f052-4d0e-66de" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="166d-2c97-e447-fd8f" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="846b-9af7-630f-48cf" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a6e0-4c68-898e-72e4" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cf02-f5f4-c1a2-c3e7" targetId="7982-41b0-1c22-d3d0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a2c3-e179-a70f-0e26" name="Loadout (No Armor)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="8b3d-5515-7cac-1179" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d08d-e4a1-0407-20fc" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="70a8-183b-c400-19fd" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="efd9-6254-5b90-23aa" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c012-3872-3b33-6315" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2510-ddf3-3642-bb81" targetId="4c4a-fc47-129e-e5f5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="31ad-baa5-3ad9-67b4" name="Loadout (Up-Armed)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="bda4-3063-97ed-2e4d" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="dde3-71ea-54cd-c355" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="bde6-de1b-3101-a4e4" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ef49-67f0-319f-1ad3" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7e8f-142f-d119-0d4a" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="286a-88a5-ace7-1e90" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7b0f-8315-5aa3-f412" targetId="411d-6742-3148-0b0b" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="482a-2304-2878-7a3a" name="Maintainer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -5731,23 +5726,7 @@
       <links/>
     </entry>
     <entry id="80ec-2488-91ab-8afb" name="Melee Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="2033-a1a2-87c7-8f83" name="Model was promoted (Allow Relics)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -5755,28 +5734,6 @@
       <links>
         <link id="4104-a66f-4d4f-5327" targetId="f4fc-4fe7-60ab-640f" linkType="entry group">
           <modifiers/>
-        </link>
-        <link id="acbe-db30-8a6c-f3d4" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-                <condition parentId="80ec-2488-91ab-8afb" childId="2033-a1a2-87c7-8f83" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions/>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
@@ -5789,16 +5746,6 @@
       <links>
         <link id="8686-82e1-4d74-06aa" targetId="f4fc-4fe7-60ab-640f" linkType="entry group">
           <modifiers/>
-        </link>
-        <link id="8b86-b3db-e12a-238d" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
         <link id="7eb3-a17b-c72b-f213" targetId="f52b-547d-2828-d9a7" linkType="entry group">
           <modifiers>
@@ -6053,23 +6000,7 @@
       <links/>
     </entry>
     <entry id="a699-ccf1-1fbb-3455" name="Ranged Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="1412-03b7-3e1d-dc7e" name="Model was promoted (Allow Relics)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -6080,28 +6011,6 @@
         </link>
         <link id="912b-07a5-1774-f266" targetId="188c-bc39-2711-054c" linkType="entry group">
           <modifiers/>
-        </link>
-        <link id="f1ce-453f-18f3-bcb5" targetId="64af-11f8-6eec-6ca2" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-                <condition parentId="a699-ccf1-1fbb-3455" childId="1412-03b7-3e1d-dc7e" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions/>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
@@ -6228,22 +6137,6 @@
         <link id="c01f-0749-1f6d-893e" targetId="09e5-083b-0b05-4d3f" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="7abb-2f24-7759-5720" targetId="46e6-5c66-f6f3-08d5" linkType="entry group">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
       </links>
     </entry>
     <entry id="7274-b7d7-be5d-2c63" name="Survivalist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6354,84 +6247,149 @@
       <profiles/>
       <links/>
     </entry>
-    <entry id="19e6-12c3-230c-5bcf" name="Loadout" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7982-41b0-1c22-d3d0" name="Relics" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="8b3d-5515-7cac-1179" incrementField="selections" incrementValue="1.0">
-          <conditions/>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
+          </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>
       <rules/>
       <profiles/>
       <links>
-        <link id="f507-170c-eac6-212b" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="068e-f052-4d0e-66de" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="166d-2c97-e447-fd8f" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="846b-9af7-630f-48cf" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a6e0-4c68-898e-72e4" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+        <link id="3ba7-3d24-8fc8-6711" targetId="f2b9-dafd-1839-2be3" linkType="entry group">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="31ad-baa5-3ad9-67b4" name="Loadout (Up-Armed)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="411d-6742-3148-0b0b" name="Relics (Up-Armed)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fc4d-9f60-d799-97d9" targetId="6390-ec30-4efa-3a45" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4c4a-fc47-129e-e5f5" name="Relics (No Armor)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="7ad0-7249-819b-cc4c" field="selections" type="instance of" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d50a-63f1-d936-99ac" targetId="e3c0-2498-43ec-af5e" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1658-1e76-702b-9b63" name="Relic Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
-        <link id="bda4-3063-97ed-2e4d" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="dde3-71ea-54cd-c355" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="bde6-de1b-3101-a4e4" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ef49-67f0-319f-1ad3" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7e8f-142f-d119-0d4a" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="286a-88a5-ace7-1e90" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+        <link id="8986-6186-2d71-72d7" targetId="188c-396f-9e6a-b976" linkType="entry group">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="a2c3-e179-a70f-0e26" name="Loadout (No Armor)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d4e6-09a8-f3ef-0a68" name="Relic Equipment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="8b3d-5515-7cac-1179" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules/>
       <profiles/>
       <links>
-        <link id="d08d-e4a1-0407-20fc" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+        <link id="9f09-3881-4774-eea4" targetId="c9e7-89ff-4532-1b54" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="70a8-183b-c400-19fd" targetId="fe43-e479-eb34-ec33" linkType="entry">
+      </links>
+    </entry>
+    <entry id="973b-200e-8596-cda3" name="Relic Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5449-290e-0d18-32e5" targetId="188c-396f-9e6a-b976" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="efd9-6254-5b90-23aa" targetId="80ec-2488-91ab-8afb" linkType="entry">
+      </links>
+    </entry>
+    <entry id="31e1-6f90-5a8f-eefc" name="Relic Melee Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8196-68a5-8519-9142" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="c012-3872-3b33-6315" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+      </links>
+    </entry>
+    <entry id="a2b9-a58f-9b3f-d2f4" name="Relic Ranged Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ed6e-ae46-be56-942c" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2a7e-5740-9d05-2e3b" name="Relic Support Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3fd5-0943-a3a3-e28e" targetId="46e6-5c66-f6f3-08d5" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -10473,7 +10431,7 @@
     </entryGroup>
     <entryGroup id="188c-396f-9e6a-b976" name="Relic Armor" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="d0de-e135-6390-dd98" name="Power Armor (R)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d0de-e135-6390-dd98" name="Power Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="f03b-3e85-a26d-1292" name="Model Wounds" defaultEntryId="1446-91b2-ed32-2373" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10518,7 +10476,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="322a-052b-b3d2-57ed" name="Shock Shield (R)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="322a-052b-b3d2-57ed" name="Shock Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="ea1a-9136-3eae-7a1a" name="Model Wounds" defaultEntryId="94ae-bcf2-0e36-0347" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10558,7 +10516,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="b8b7-4cf1-c5d2-1209" name="Stealth Armor (R)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b8b7-4cf1-c5d2-1209" name="Stealth Armor" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="49a2-8de0-c6be-ab7c" name="Model Wounds" defaultEntryId="5a0c-9e29-ff5f-faed" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10605,7 +10563,7 @@
     </entryGroup>
     <entryGroup id="c9e7-89ff-4532-1b54" name="Relic Equipment" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0d53-49e2-bfbd-381b" name="Auto-Injector (R)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0d53-49e2-bfbd-381b" name="Auto-Injector" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="f46a-adfa-ecc2-ed5d" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10622,7 +10580,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="9c07-99b2-9ba5-7dce" name="Battle Force Field (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9c07-99b2-9ba5-7dce" name="Battle Force Field" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="0f50-3932-2d65-e763" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10639,7 +10597,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="1dca-24ae-cdaf-b4a2" name="Grappler (R)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1dca-24ae-cdaf-b4a2" name="Grappler" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="bd77-9c12-6d8e-5fe7" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10656,7 +10614,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="9aa8-c82f-ab05-ee7d" name="Personal Targeting Array (R)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9aa8-c82f-ab05-ee7d" name="Personal Targeting Array" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="787d-19b8-2cf8-fdd9" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10673,7 +10631,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="03be-70fd-ce0a-bee7" name="SPAMsuit (R)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="03be-70fd-ce0a-bee7" name="SPAMsuit" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="1466-39f7-ef84-5fa1" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10697,7 +10655,7 @@
     </entryGroup>
     <entryGroup id="a8e4-60b5-80c5-19b6" name="Relic Grenades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="76c8-cfbd-f7d4-346d" name="Plasma Grenade (R)" points="17.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="76c8-cfbd-f7d4-346d" name="Plasma Grenade" points="17.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -10705,7 +10663,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="f26c-916b-fd57-0a47" name="Shrieker (R)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f26c-916b-fd57-0a47" name="Shrieker" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -10720,7 +10678,7 @@
     </entryGroup>
     <entryGroup id="ebbe-0f0c-70c3-cddf" name="Relic Melee Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="8383-e55b-ef61-af1c" name="Actuated Gauntlet (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8383-e55b-ef61-af1c" name="Actuated Gauntlet" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="554e-a598-54c0-eb33" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10737,7 +10695,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="09bb-04ad-22a6-e321" name="Blast Hammer (R)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="09bb-04ad-22a6-e321" name="Blast Hammer" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="6b4e-1dae-cc33-f5f2" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10754,7 +10712,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="9328-e691-0c1c-0338" name="Chainblade (R)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9328-e691-0c1c-0338" name="Chainblade" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="7302-190f-6144-cfc4" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10771,7 +10729,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="f3dc-c5ec-0699-a233" name="Force Blade (R)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f3dc-c5ec-0699-a233" name="Force Blade" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="23f8-274c-1d4e-68ad" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10788,7 +10746,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="dc26-652c-0e28-1d43" name="Monofilament Whip (R)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="dc26-652c-0e28-1d43" name="Monofilament Whip" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="ce06-4734-c1d4-a888" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10812,7 +10770,7 @@
     </entryGroup>
     <entryGroup id="64af-11f8-6eec-6ca2" name="Relic Ranged Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="f830-2268-f165-f2e6" name="Needler (R)" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f830-2268-f165-f2e6" name="Needler" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="38b9-5f8f-0bf5-e215" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10829,7 +10787,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="eba0-4a00-dbe9-ca1f" name="Laser Carbine (R)" points="33.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="eba0-4a00-dbe9-ca1f" name="Laser Carbine" points="33.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="9628-f6de-72ec-d958" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10846,7 +10804,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="bd22-c217-cdd7-11d5" name="Laser Pistol (R)" points="23.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="bd22-c217-cdd7-11d5" name="Laser Pistol" points="23.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="e461-2ce3-6f8e-3707" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10863,7 +10821,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="70ef-4124-49bd-dbfb" name="Plasma Pistol (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="70ef-4124-49bd-dbfb" name="Plasma Pistol" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="e7d7-6397-7aa7-b87c" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10880,7 +10838,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="70cc-2dac-1cdf-c3c3" name="Plasma Rifle (R)" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="70cc-2dac-1cdf-c3c3" name="Plasma Rifle" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="458a-4578-36be-4215" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10897,7 +10855,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="bf78-3514-476b-295b" name="Thunder Gun (R)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="bf78-3514-476b-295b" name="Thunder Gun" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="2fec-ebc5-6a02-61e5" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10914,7 +10872,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="2326-902a-2092-97ca" name="Web Gun (R)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2326-902a-2092-97ca" name="Web Gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="dc85-2538-0f50-e2a2" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10931,7 +10889,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="1a0a-6777-e7a4-3886" name="ZINGer (R)" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1a0a-6777-e7a4-3886" name="ZINGer" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="4ce9-cd33-9119-a9e1" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10955,7 +10913,7 @@
     </entryGroup>
     <entryGroup id="46e6-5c66-f6f3-08d5" name="Relic Support Weapons" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="6b5a-a22c-4157-0aa8" name="Gatling Laser (R)" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6b5a-a22c-4157-0aa8" name="Gatling Laser" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="be3d-89d9-d0e7-a3d9" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -10972,7 +10930,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="af42-f6bd-7f65-0a86" name="Plasma Caster (R)" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="af42-f6bd-7f65-0a86" name="Plasma Caster" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="cde8-bc5c-d296-0a45" name="Dummy Pretty Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
@@ -11374,6 +11332,338 @@
       <entryGroups/>
       <modifiers/>
       <links/>
+    </entryGroup>
+    <entryGroup id="f2b9-dafd-1839-2be3" name="Relics" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="1bf9-d738-3b89-2a5a" name="Model was promoted (Allow Relics)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="6d98-3f77-f58e-558d" name="Model gained Up-Armed (Allow Support)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="b224-1a32-b07b-688a" targetId="188c-396f-9e6a-b976" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="f2b9-dafd-1839-2be3" childId="1bf9-d738-3b89-2a5a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="01d0-5cc8-f305-4e04" targetId="46e6-5c66-f6f3-08d5" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="f2b9-dafd-1839-2be3" childId="6d98-3f77-f58e-558d" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="fd45-4bd3-b537-ea8b" targetId="c9e7-89ff-4532-1b54" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="f2b9-dafd-1839-2be3" childId="1bf9-d738-3b89-2a5a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="d3b7-7ebe-7b5b-c341" targetId="a8e4-60b5-80c5-19b6" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="f2b9-dafd-1839-2be3" childId="1bf9-d738-3b89-2a5a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="22fc-7248-8f7c-c8ee" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="f2b9-dafd-1839-2be3" childId="1bf9-d738-3b89-2a5a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="c000-390a-13f5-23a5" targetId="64af-11f8-6eec-6ca2" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="f2b9-dafd-1839-2be3" childId="1bf9-d738-3b89-2a5a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="6390-ec30-4efa-3a45" name="Relics (Up-Armed)" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="5cb2-4699-3e3e-bd35" name="Model was promoted (Allow Relics)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="d1a6-6e15-ca84-6e5d" targetId="188c-396f-9e6a-b976" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="6390-ec30-4efa-3a45" childId="5cb2-4699-3e3e-bd35" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="17e9-e5a6-ab7a-291b" targetId="46e6-5c66-f6f3-08d5" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="30d5-b84f-e319-4c98" targetId="c9e7-89ff-4532-1b54" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="6390-ec30-4efa-3a45" childId="5cb2-4699-3e3e-bd35" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="ecf2-7b56-d820-d5be" targetId="a8e4-60b5-80c5-19b6" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="6390-ec30-4efa-3a45" childId="5cb2-4699-3e3e-bd35" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="0026-9216-403f-29bf" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="6390-ec30-4efa-3a45" childId="5cb2-4699-3e3e-bd35" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="9ec4-a267-5d9e-5ec9" targetId="64af-11f8-6eec-6ca2" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="6390-ec30-4efa-3a45" childId="5cb2-4699-3e3e-bd35" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="e3c0-2498-43ec-af5e" name="Relics (No Armor)" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="a3f9-395b-faa2-e88f" name="Model was promoted (Allow Relics)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="7340-34da-afb1-ea53" name="Model gained Up-Armed (Allow Support)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="fc37-37ec-cc83-0832" targetId="46e6-5c66-f6f3-08d5" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="e3c0-2498-43ec-af5e" childId="a3f9-395b-faa2-e88f" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="10fe-b0c0-e880-d890" targetId="c9e7-89ff-4532-1b54" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="e3c0-2498-43ec-af5e" childId="a3f9-395b-faa2-e88f" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="4cad-efb8-9999-170d" targetId="a8e4-60b5-80c5-19b6" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="e3c0-2498-43ec-af5e" childId="a3f9-395b-faa2-e88f" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="3cdc-89c6-ad0b-91a2" targetId="ebbe-0f0c-70c3-cddf" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="e3c0-2498-43ec-af5e" childId="a3f9-395b-faa2-e88f" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="da90-887d-0075-e45f" targetId="64af-11f8-6eec-6ca2" linkType="entry group">
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="category" childId="41a5-6287-0737-8014" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="e3c0-2498-43ec-af5e" childId="a3f9-395b-faa2-e88f" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules/>

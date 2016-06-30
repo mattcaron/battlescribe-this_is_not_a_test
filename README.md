@@ -44,11 +44,9 @@ TODO List
 
 General
 -------
-1. Limit on number of relics per model (p. 153)
-2. Limit on number of relics per warband (excluding inventory) (p.153)
-3. Page references for.. well.. everything.
-4. Add weapons statistics (Okay per conversation w/ Joey)
-5. Add unit statistics (Also okay per conversation w/ Joey)
+1. Page references for.. well.. everything.
+2. Add weapons statistics (Okay per conversation w/ Joey)
+3. Add unit statistics (Also okay per conversation w/ Joey)
 
 Preservers
 -----------
@@ -114,6 +112,16 @@ Bugs
 
 Notes
 ======
+
+Relics
+------
+
+* Due to a limitation in Battlescribe, I couldn't move the Support
+  Relics under the Up-Armed option for a couple of models (Caravan
+  Guard, for example), like I did for Support weapons and still be
+  able to do the "maximum 2 relics per model" validation. As such,
+  there is a tick box at the top of the Relics section that you can
+  check if the model somehow gains the Up-Armed ability.
 
 Tribals
 -------
