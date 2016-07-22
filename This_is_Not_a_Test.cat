@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="46" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="47" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -5626,6 +5626,88 @@
         </link>
       </links>
     </entry>
+    <entry id="a894-808c-d632-8dfe" name="Loadout (Freelancer)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="8b3d-5515-7cac-1179" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c679-f8ad-874a-fa5b" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="91ff-3b5a-25e9-aeb8" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d0eb-3396-a707-2d91" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="583e-0f53-e5fa-22da" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1c29-fd5c-48ad-e6af" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8b6d-a58c-df3b-a5b1" name="Loadout (Freelancer, No Armor)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="8b3d-5515-7cac-1179" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="4397-6d14-259f-b194" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="f380-83d2-61ea-78d9" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="def5-54bf-39b1-2bd5" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0bb2-b61c-a824-4bae" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="58aa-e6ad-94fb-f261" name="Loadout (Freelancer, Up-Armed)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="40ee-fedf-76cf-6bb4" targetId="5b30-6224-be08-82c5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c2db-c8b4-ba07-9f47" targetId="dbf1-12c8-26bc-c509" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="74bd-cb09-9c4e-a6e7" targetId="fe43-e479-eb34-ec33" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c0de-2cb4-c77b-5c87" targetId="80ec-2488-91ab-8afb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="dfce-4576-5c34-d632" targetId="a699-ccf1-1fbb-3455" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="433f-29a9-86da-1c41" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="a2c3-e179-a70f-0e26" name="Loadout (No Armor)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -5678,6 +5760,9 @@
           <modifiers/>
         </link>
         <link id="286a-88a5-ace7-1e90" targetId="da6a-ab5f-84b6-5731" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c244-9a6b-2b97-a8f4" targetId="411d-6742-3148-0b0b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -6351,91 +6436,6 @@
       <rules/>
       <profiles/>
       <links/>
-    </entry>
-    <entry id="a894-808c-d632-8dfe" name="Loadout (Freelancer)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="8b3d-5515-7cac-1179" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="c679-f8ad-874a-fa5b" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="91ff-3b5a-25e9-aeb8" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d0eb-3396-a707-2d91" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="583e-0f53-e5fa-22da" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="1c29-fd5c-48ad-e6af" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8b6d-a58c-df3b-a5b1" name="Loadout (Freelancer, No Armor)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxPoints" value="15.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="8b3d-5515-7cac-1179" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="4397-6d14-259f-b194" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="f380-83d2-61ea-78d9" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="def5-54bf-39b1-2bd5" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="0bb2-b61c-a824-4bae" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="58aa-e6ad-94fb-f261" name="Loadout (Freelancer, Up-Armed)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="40ee-fedf-76cf-6bb4" targetId="5b30-6224-be08-82c5" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c2db-c8b4-ba07-9f47" targetId="dbf1-12c8-26bc-c509" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="74bd-cb09-9c4e-a6e7" targetId="fe43-e479-eb34-ec33" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c0de-2cb4-c77b-5c87" targetId="80ec-2488-91ab-8afb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="dfce-4576-5c34-d632" targetId="a699-ccf1-1fbb-3455" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="433f-29a9-86da-1c41" targetId="da6a-ab5f-84b6-5731" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2a7b-96a1-f1e0-6f82" targetId="411d-6742-3148-0b0b" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
