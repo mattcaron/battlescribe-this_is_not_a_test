@@ -108,6 +108,12 @@ Bugs
    BattleScribe, which is supposed to be able to look further up the
    chain than just "Direct Parent".
 
+3. Freelancers are now unlimited. Unfortunately, the only conditional
+   directives are "per number of roster selections" (like specialists
+   are) and "per roster points limit" (note the limit). There is no
+   way I can find to increase the maximum number of freelancers based
+   on the number of points **selected**.
+
 
 
 Notes
