@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="47" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="48" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -3714,9 +3714,6 @@
             <link id="a9c5-5a86-e145-7cc6" targetId="927a-d2aa-a5d8-9f05" linkType="entry group">
               <modifiers/>
             </link>
-            <link id="2ed2-b760-6e40-d7e0" targetId="19e6-12c3-230c-5bcf" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entry>
       </entries>
@@ -3733,6 +3730,9 @@
       <profiles/>
       <links>
         <link id="fb2e-833e-8df8-8809" targetId="be46-82a6-e32e-fd0e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fb40-73f2-68ef-e113" targetId="19e6-12c3-230c-5bcf" linkType="entry">
           <modifiers/>
         </link>
       </links>
