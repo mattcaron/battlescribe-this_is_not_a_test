@@ -114,6 +114,18 @@ Bugs
    way I can find to increase the maximum number of freelancers based
    on the number of points **selected**.
 
+4. The limit of 3 models with "Ranger" per warband is not implemented,
+   because there are actually 2 copies of "Ranger" - one for models
+   which come with it for free, and one as an option. Implementing an
+   aggregate limit which encompasses both of them is problematic and I
+   need to figure out how to do this, exactly.
+
+5. Similarly, the limit of a model only ever having one weapon with
+   the Masterwork Upgrade at one time is not implemented, for
+   basically the same reason - it's easy to limit how many times a
+   weapon can take the upgrade, but not how many times a model can
+   take a weapon with the upgrade.
+
 
 
 Notes
