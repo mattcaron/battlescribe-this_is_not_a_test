@@ -5966,7 +5966,18 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="9a2e-d9a7-2592-bd7c" profileTypeId="d6fe-433d-51d6-204a" name="Natural Weapons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+            <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+            <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+            <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="N/A"/>
+            <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="N/A"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="5634-0808-038a-c85e" name="Natural Weapons (Optional)" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5974,7 +5985,18 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="ae15-8f16-97c9-66f9" profileTypeId="d6fe-433d-51d6-204a" name="Natural Weapons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+            <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+            <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+            <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="N/A"/>
+            <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="N/A"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="31b1-3856-81c6-6c81" name="Oblivious" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8609,7 +8631,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="d9f5-f701-0994-dc6b" profileTypeId="d6fe-433d-51d6-204a" name="Heavy Improvised" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Heavy, Improvised"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="7fa8-40bf-5bae-221b" name="Heavy Weapon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8633,7 +8666,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="cdac-9b23-db7b-71c3" profileTypeId="d6fe-433d-51d6-204a" name="Heavy Weapon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+2"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Heavy"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="cbbb-7675-e582-6425" name="Light Improvised" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8657,7 +8701,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="0fd0-f6e8-d513-d73f" profileTypeId="d6fe-433d-51d6-204a" name="Light Improvised" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="3&quot;"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+0"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Improvised"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="85a3-3dc3-e5eb-b357" name="Light Weapon" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8687,7 +8742,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="2881-57c3-ca32-3e45" profileTypeId="d6fe-433d-51d6-204a" name="Light Weapon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="1877-bfc1-ef0f-6bfe" name="Spear" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8711,7 +8777,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="ff12-0c9a-73ab-ed6e" profileTypeId="d6fe-433d-51d6-204a" name="Spear" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="1&quot;"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="3&quot;"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="9b32-a0bc-eea0-c4bc" name="Small Blade" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8735,7 +8812,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="a2db-dcc8-521a-2d4e" profileTypeId="d6fe-433d-51d6-204a" name="Small Blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="6&quot;"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="56d7-2d35-99c2-99ba" name="Bayonet" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8759,7 +8847,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="9e06-bfdd-f606-16df" profileTypeId="d6fe-433d-51d6-204a" name="Bayonet" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="N/A"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Does not count against Carry Capacity."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="aaf4-c4f0-b989-2c1a" name="Cattle Prod" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8783,7 +8882,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="4122-19b0-a958-53ac" profileTypeId="d6fe-433d-51d6-204a" name="Cattle Prod" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+0"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Knock Out"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="0cb3-5991-392f-7740" name="Mauler" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8807,7 +8917,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="2d48-ea6f-e93d-222c" profileTypeId="d6fe-433d-51d6-204a" name="Mauler" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="1&quot;"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+2"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Heavy, Gruesome Kill"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="883e-7481-d619-5ccb" name="Maw-Maw&apos;s Pry Bar" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8828,7 +8949,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="20e9-2e64-04e2-e0ff" profileTypeId="d6fe-433d-51d6-204a" name="Maw-Maw&apos;s Pry Bar" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="1&quot;"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+2"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Max. one per warband"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="f235-7384-5ed4-71e2" name="Slaughter Blade" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8852,7 +8984,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="51f6-3401-17dd-0715" profileTypeId="d6fe-433d-51d6-204a" name="Slaughter Blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+                <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Poison"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>

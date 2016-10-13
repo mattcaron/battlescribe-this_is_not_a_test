@@ -62,5 +62,15 @@
       <forceTypes/>
     </forceType>
   </forceTypes>
-  <profileTypes/>
+  <profileTypes>
+    <profileType id="d6fe-433d-51d6-204a" name="Melee Weapon">
+      <characteristics>
+        <characteristic id="5d1b-619e-2a69-f924" name="Range - Melee"/>
+        <characteristic id="9a20-abf3-fcfc-8f07" name="Range - Thrown"/>
+        <characteristic id="ef92-7bcd-59d6-dcca" name="Strength"/>
+        <characteristic id="b1a4-dc49-dc4e-a319" name="1H/2H"/>
+        <characteristic id="90f8-7f9d-1357-daf1" name="Special Rules"/>
+      </characteristics>
+    </profileType>
+  </profileTypes>
 </gameSystem>
