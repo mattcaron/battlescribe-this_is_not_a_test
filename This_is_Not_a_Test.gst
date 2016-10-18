@@ -72,5 +72,14 @@
         <characteristic id="90f8-7f9d-1357-daf1" name="Special Rules"/>
       </characteristics>
     </profileType>
+    <profileType id="232d-8609-4656-e6a9" name="Ranged Weapon">
+      <characteristics>
+        <characteristic id="c7c1-91bf-6327-c43e" name="Max Range"/>
+        <characteristic id="5ab0-e20a-98a4-4a21" name="Strength"/>
+        <characteristic id="1f89-7a5c-32fe-1ed2" name="Reliability"/>
+        <characteristic id="1c76-59b7-bc63-1d3a" name="1H/2H"/>
+        <characteristic id="941b-2b2a-636d-23bd" name="Special Rules"/>
+      </characteristics>
+    </profileType>
   </profileTypes>
 </gameSystem>

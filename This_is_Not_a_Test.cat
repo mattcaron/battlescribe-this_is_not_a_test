@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="50" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="51" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -9061,7 +9061,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="6562-7840-2f50-ad4f" profileTypeId="232d-8609-4656-e6a9" name="Assault Rifle" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="24&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Burst"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="acc9-2a2a-63d1-9dbd" name="Rifle" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9120,7 +9131,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="3f69-c7aa-b32e-737a" profileTypeId="232d-8609-4656-e6a9" name="Rifle" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="20&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="7027-6d91-e93a-f4e4" name="Compound Bow" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9169,7 +9191,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="ef37-d2b8-0a9b-589e" profileTypeId="232d-8609-4656-e6a9" name="Compound Bow" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="24&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="STR+1"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="d887-550d-a716-476b" name="Machine Pistol" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9211,7 +9244,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="fb01-af45-8ec8-f4ab" profileTypeId="232d-8609-4656-e6a9" name="Machine Pistol" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="12&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Burst, Pistol"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="c81f-459d-9f8d-4a05" name="Pistol (Revolver)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9260,7 +9304,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="9e5e-efe0-20bf-8d19" profileTypeId="232d-8609-4656-e6a9" name="Pistol (Revolver)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="12&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Pistol"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="cf58-75fd-714a-b60d" name="Shotgun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9319,7 +9374,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="e8d7-9789-df76-0936" profileTypeId="232d-8609-4656-e6a9" name="Shotgun" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="18&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Close Ranged"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="fb52-0710-0981-46d0" name="Submachine Gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9368,7 +9434,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="89ce-e4c7-29e9-a9a0" profileTypeId="232d-8609-4656-e6a9" name="Submachine Gun" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="16&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Burst"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="d646-52a3-fe6f-df5c" name="Sniper Rifle" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9417,7 +9494,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="2e60-acf6-f4b2-405e" profileTypeId="232d-8609-4656-e6a9" name="Sniper Rifle" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="36&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Move or Fire, 1+ to Hit at 18&quot; or more."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="3ede-f878-7588-3cb2" name="Full-Auto Shotgun (G)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9488,7 +9576,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="0e79-f34a-cbed-bec8" profileTypeId="232d-8609-4656-e6a9" name="Full-Auto Shotgun (G)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="18&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Close Ranged, Burst"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="f44b-e4bc-7372-e38c" name="Modern Battle Rifle (G)" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9565,7 +9664,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="a4dd-76f7-2471-6c9b" profileTypeId="232d-8609-4656-e6a9" name="Modern Battle Rifle (G)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="30&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Burst"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="4286-3675-f11d-96d1" name="Modern Sporting Rifle (G)" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9648,7 +9758,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="78d4-eb74-c612-d738" profileTypeId="232d-8609-4656-e6a9" name="Modern Sporting Rifle (G)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="24&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Double Tap"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="3131-d196-5ba1-8893" name="Semi-Auto Carbine (G)" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9703,7 +9824,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="ccf0-4de5-7559-912d" profileTypeId="232d-8609-4656-e6a9" name="Semi-Auto Carbine (G)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="16&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Double Tap"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="8d01-53f5-e656-a82d" name="Semi-Auto Pistol (G)" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9758,7 +9890,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="4ad1-9a11-a8cf-5211" profileTypeId="232d-8609-4656-e6a9" name="Semi-Auto Pistol (G)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="12&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Double Tap, Pistol"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="8e01-cb05-4da9-96e5" name="Semi-Auto Rifle (G)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9829,7 +9972,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="1d5f-df4a-6eac-ed06" profileTypeId="232d-8609-4656-e6a9" name="Semi-Auto Rifle (G)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="30&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Double Tap"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="c52c-c048-eec4-eed2" name="Semi-Auto Sniper Rifle (G)" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9884,7 +10038,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="ce3e-b52a-93fb-d64c" profileTypeId="232d-8609-4656-e6a9" name="Semi-Auto Sniper Rifle (G)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="36&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Double Tap, Move or Fire, +1 to hit at 18&quot; or more."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="555b-e136-7662-b6a3" name="Semi-Auto Shotgun (G)" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9955,7 +10120,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="7ca9-3db0-cda5-5549" profileTypeId="232d-8609-4656-e6a9" name="Semi-Auto Shotgun (G)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="18&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Close Ranged, Double Tap"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
@@ -10176,7 +10352,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="f6b7-722a-c9f0-5ea9" profileTypeId="232d-8609-4656-e6a9" name="Bow" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="20&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="STR"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="80e1-0ba7-4cf1-1c2e" name="Crossbow" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10200,7 +10387,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="e68a-9bdd-0133-9ace" profileTypeId="232d-8609-4656-e6a9" name="Crossbow" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="24&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="ee84-2eb5-88cc-558c" name="Aerosol Gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10224,7 +10422,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="319a-88af-d123-060c" profileTypeId="232d-8609-4656-e6a9" name="Aerosol Gun" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="Flame Template"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="5"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Gas, Limited Ammo, Poison"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="44f1-07d6-dcba-b56d" name="Black Powder Pistol" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10254,7 +10463,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="6695-f8d7-7322-3259" profileTypeId="232d-8609-4656-e6a9" name="Black Powder Pistol" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="20&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Pistol"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="7ad2-0444-83ea-61c9" name="Blunderbuss" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10278,7 +10498,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="4932-1839-53e4-3c6e" profileTypeId="232d-8609-4656-e6a9" name="Blunderbuss" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="6&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="5"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Small Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="57af-650d-084e-c1ee" name="Crossbow Pistol" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10302,7 +10533,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="8967-909b-91cb-350a" profileTypeId="232d-8609-4656-e6a9" name="Crossbow Pistol" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="8&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="5"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Pistol"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="918d-967b-73ec-5e9f" name="Musket" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10332,7 +10574,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="e339-fa4d-7fa3-dc78" profileTypeId="232d-8609-4656-e6a9" name="Musket" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="18&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Move Or Fire"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links>
             <link id="3f81-7fc5-587b-b88b" targetId="b289-4cb4-3ddc-520c" linkType="entry">
               <modifiers/>
@@ -10360,7 +10613,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="64f3-0448-949f-9aa0" profileTypeId="232d-8609-4656-e6a9" name="Spear Gun" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="18&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="c89f-1a19-113e-dd36" name="Net Launcher" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10384,7 +10648,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="6c81-851c-3045-f424" profileTypeId="232d-8609-4656-e6a9" name="Net Launcher" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="16&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="N/A"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Can immobilize target"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="b45a-a060-6ff6-2cf6" name="Spear Fisher" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10408,7 +10683,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="90df-9d3b-1295-d9da" profileTypeId="232d-8609-4656-e6a9" name="Spear Fisher" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="18&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="5ee7-5f5b-b534-36bf" name="Splatter Gun" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10432,7 +10718,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="cafb-fc24-30d3-789d" profileTypeId="232d-8609-4656-e6a9" name="Splatter Gun" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="Template"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="5"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="1"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Ignore -1 Movement Penalty, Limited Ammo, Bloody Mess"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
