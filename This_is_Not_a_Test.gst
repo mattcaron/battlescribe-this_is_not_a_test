@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1e53-118f-384d-3d5a" revision="10" battleScribeVersion="1.15" name="This is Not a Test" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1e53-118f-384d-3d5a" revision="11" battleScribeVersion="1.15" name="This is Not a Test" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="2083-3ad1-b1ec-abf4" name="Warband" minSelections="1" maxSelections="24" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -103,6 +103,16 @@
         <characteristic id="c614-c8aa-a43d-0de8" name="1H/2H"/>
         <characteristic id="b115-7203-20f6-70a7" name="Special Rules"/>
         <characteristic id="f7ed-fcdf-6e3f-0e16" name="Scarcity"/>
+      </characteristics>
+    </profileType>
+    <profileType id="761f-1e29-a19a-5cc6" name="Relic Ranged Weapons">
+      <characteristics>
+        <characteristic id="416c-5f0a-ad6d-f468" name="Max Range"/>
+        <characteristic id="17cf-01c6-1de9-f7fb" name="Strength"/>
+        <characteristic id="153a-5db8-9d29-e9f8" name="Reliability"/>
+        <characteristic id="5abb-cd82-a4da-8ce3" name="1H/2H"/>
+        <characteristic id="b60c-6688-00d4-ad7d" name="Special Rules"/>
+        <characteristic id="f4f6-d2b9-21cf-b3ed" name="Rarity"/>
       </characteristics>
     </profileType>
   </profileTypes>
