@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="59" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="60" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -11371,7 +11371,6 @@
           <profiles>
             <profile id="084b-7d1c-9434-10e4" profileTypeId="4464-ce7a-ce1b-c30f" name="Plasma Grenade" hidden="false">
               <characteristics>
-                <characteristic characteristicId="d24b-e91a-fd3d-f0f4" name="Max Range" value="6&quot;"/>
                 <characteristic characteristicId="8166-85a0-bcbc-b421" name="Strength" value="8"/>
                 <characteristic characteristicId="6ec3-932f-0a5f-5369" name="Special Rules" value="Limited Ammo, Plasma, Small Blast"/>
                 <characteristic characteristicId="03d7-3a3b-edc7-cabc" name="Rarity" value="Rare"/>
@@ -11389,7 +11388,6 @@
           <profiles>
             <profile id="c035-cba2-e2ae-e6bf" profileTypeId="4464-ce7a-ce1b-c30f" name="Shrieker" hidden="false">
               <characteristics>
-                <characteristic characteristicId="d24b-e91a-fd3d-f0f4" name="Max Range" value="6&quot;"/>
                 <characteristic characteristicId="8166-85a0-bcbc-b421" name="Strength" value="N/A"/>
                 <characteristic characteristicId="6ec3-932f-0a5f-5369" name="Special Rules" value="Knock-Out, Limited Ammo, Small Blast"/>
                 <characteristic characteristicId="03d7-3a3b-edc7-cabc" name="Rarity" value="Scarce"/>
