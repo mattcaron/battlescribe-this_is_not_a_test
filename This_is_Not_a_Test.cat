@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="53" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="54" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -6606,7 +6606,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="083e-fae7-f148-74d9" profileTypeId="fdd8-2587-a054-adc7" name="Ballistic Shield" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+1"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="Shield"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="8349-d656-a5f0-9f00" name="Riot Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6667,7 +6676,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="5e0f-1296-6469-3f90" profileTypeId="fdd8-2587-a054-adc7" name="Riot Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+1"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="6fff-542e-1788-a396" name="Biohazard Suit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6728,7 +6746,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="8791-d8af-03ed-de62" profileTypeId="fdd8-2587-a054-adc7" name="Biohazard Suit" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+0"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="Benefits against Gas attacks, and counts as Ungainly"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="d913-145a-d81e-d975" name="Combat Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6789,7 +6816,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="87b9-2a95-016a-d89c" profileTypeId="fdd8-2587-a054-adc7" name="Combat Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+2"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="-1 to Movement stat"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="3081-a428-d7bc-edb8" name="Heavy Metal Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6850,7 +6886,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="a159-1ae0-287d-f15f" profileTypeId="fdd8-2587-a054-adc7" name="Heavy Metal Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+2"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+0"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="-1 to Move stat and count as Ungainly"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="5d7b-f63d-b5a2-a7c4" name="Mesh Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6911,7 +6956,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="296f-65b7-75e6-726d" profileTypeId="fdd8-2587-a054-adc7" name="Mesh Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+0"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+1"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="1780-b992-d3a3-4777" name="Primitive Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6972,7 +7026,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="7e0d-d14d-a33d-a895" profileTypeId="fdd8-2587-a054-adc7" name="Primitive Shield" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+0"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="Shield"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="0fba-7e40-cb77-a072" name="Scrap Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7033,7 +7096,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="37bb-9149-f84f-8e11" profileTypeId="fdd8-2587-a054-adc7" name="Scrap Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+0"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="N/A"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="698b-a220-79b4-d241" name="Skin Armor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7094,7 +7166,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="d5fa-7e1f-2652-a315" profileTypeId="fdd8-2587-a054-adc7" name="Skin Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+0"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="Fearsome Reputation"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="2ee6-6d4c-c7ed-1897" name="Chameleon Suit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7162,7 +7243,16 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="7cde-233a-27d6-9051" profileTypeId="fdd8-2587-a054-adc7" name="Chameleon Suit" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+1"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="Chameleon effect if the model does not double move."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="2a46-2761-2fd3-b5eb" name="Combat Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7223,7 +7313,16 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="9190-ee2d-b16f-514f" profileTypeId="fdd8-2587-a054-adc7" name="Combat Shield" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="dc35-a295-7862-96b2" name="Armor Bonus (Melee)" value="+2"/>
+                <characteristic characteristicId="7463-11b2-9116-825e" name="Armor Bonus (Ranged)" value="+0"/>
+                <characteristic characteristicId="d431-cb8e-b6f3-4ba9" name="Special Rules" value="Shield"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
