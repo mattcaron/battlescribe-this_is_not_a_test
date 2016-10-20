@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="56" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="57" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -11755,7 +11755,19 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="73ca-f78e-327d-e57d" profileTypeId="761f-1e29-a19a-5cc6" name="Gatling Laser" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="416c-5f0a-ad6d-f468" name="Max Range" value="24&quot;"/>
+                <characteristic characteristicId="17cf-01c6-1de9-f7fb" name="Strength" value="6"/>
+                <characteristic characteristicId="153a-5db8-9d29-e9f8" name="Reliability" value="3"/>
+                <characteristic characteristicId="5abb-cd82-a4da-8ce3" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="b60c-6688-00d4-ad7d" name="Special Rules" value="Burst, Hail of Lead, Laser, Move or Fire, Malfunction Prone, Thermocycling"/>
+                <characteristic characteristicId="f4f6-d2b9-21cf-b3ed" name="Rarity" value="Ultra Rare"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="af42-f6bd-7f65-0a86" name="Plasma Caster" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11772,7 +11784,19 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="9838-e340-662f-09b3" profileTypeId="761f-1e29-a19a-5cc6" name="Plasma Caster" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="416c-5f0a-ad6d-f468" name="Max Range" value="24&quot;"/>
+                <characteristic characteristicId="17cf-01c6-1de9-f7fb" name="Strength" value="9"/>
+                <characteristic characteristicId="153a-5db8-9d29-e9f8" name="Reliability" value="2"/>
+                <characteristic characteristicId="5abb-cd82-a4da-8ce3" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="b60c-6688-00d4-ad7d" name="Special Rules" value="Burst, Malfunction Prone, Plasma, Small Blast, Thermocycling"/>
+                <characteristic characteristicId="f4f6-d2b9-21cf-b3ed" name="Rarity" value="Ultra Rare"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
