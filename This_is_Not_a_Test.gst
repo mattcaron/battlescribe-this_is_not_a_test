@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1e53-118f-384d-3d5a" revision="7" battleScribeVersion="1.15" name="This is Not a Test" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1e53-118f-384d-3d5a" revision="8" battleScribeVersion="1.15" name="This is Not a Test" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="2083-3ad1-b1ec-abf4" name="Warband" minSelections="1" maxSelections="24" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -79,6 +79,12 @@
         <characteristic id="1f89-7a5c-32fe-1ed2" name="Reliability"/>
         <characteristic id="1c76-59b7-bc63-1d3a" name="1H/2H"/>
         <characteristic id="941b-2b2a-636d-23bd" name="Special Rules"/>
+      </characteristics>
+    </profileType>
+    <profileType id="b5e3-7397-05f7-4ad6" name="Grenades">
+      <characteristics>
+        <characteristic id="fd5c-1cae-88c0-e179" name="Strength"/>
+        <characteristic id="c6d0-9ce1-eeda-6667" name="Special Rules"/>
       </characteristics>
     </profileType>
   </profileTypes>

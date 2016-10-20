@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="52" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="53" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -5470,7 +5470,18 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="c095-0e8d-e375-d26d" profileTypeId="232d-8609-4656-e6a9" name="Flamethrower" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="Flame Template"/>
+            <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6&quot;"/>
+            <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+            <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+            <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Flammable, Limited Ammo"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="0aa0-337d-aabe-633a" name="Flighty" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8190,7 +8201,15 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="73ee-b907-346d-8594" profileTypeId="b5e3-7397-05f7-4ad6" name="Flash Bang" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="fd5c-1cae-88c0-e179" name="Strength" value="N/A"/>
+                <characteristic characteristicId="c6d0-9ce1-eeda-6667" name="Special Rules" value="Limited Ammo, Large Blast, Stun"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="9317-9873-5b02-f471" name="Fragmentation" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8205,7 +8224,15 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="3cc2-f1f5-176b-40a2" profileTypeId="b5e3-7397-05f7-4ad6" name="Fragmentation" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="fd5c-1cae-88c0-e179" name="Strength" value="7"/>
+                <characteristic characteristicId="c6d0-9ce1-eeda-6667" name="Special Rules" value="Limited Ammo, Small Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="74e7-f799-ff89-effd" name="Molotov Cocktail" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8220,7 +8247,15 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="db3a-68aa-32dd-92d3" profileTypeId="b5e3-7397-05f7-4ad6" name="Molotov Cocktail" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="fd5c-1cae-88c0-e179" name="Strength" value="5"/>
+                <characteristic characteristicId="c6d0-9ce1-eeda-6667" name="Special Rules" value="Flammable, Limited Ammo, Small Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="0026-8d6b-e260-8ba9" name="Sleep Grenade" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8235,7 +8270,15 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="6ef1-5ffe-96de-35e2" profileTypeId="b5e3-7397-05f7-4ad6" name="Sleep Grenade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="fd5c-1cae-88c0-e179" name="Strength" value="N/A"/>
+                <characteristic characteristicId="c6d0-9ce1-eeda-6667" name="Special Rules" value="Gas, Knock Out, Limited Ammo, Small Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="d2d9-96f0-4d28-e9f8" name="Tear Gas" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8250,7 +8293,15 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="d19b-e370-f00d-5639" profileTypeId="b5e3-7397-05f7-4ad6" name="Tear Gas" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="fd5c-1cae-88c0-e179" name="Strength" value="N/A"/>
+                <characteristic characteristicId="c6d0-9ce1-eeda-6667" name="Special Rules" value="Distracting, Gas, Large Blast, Limited Ammo"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="ffe5-35c3-061d-82d5" name="Bloody Head" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8265,7 +8316,15 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="3b4b-d9bb-6a4a-f213" profileTypeId="b5e3-7397-05f7-4ad6" name="Bloody Head" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="fd5c-1cae-88c0-e179" name="Strength" value="N/A"/>
+                <characteristic characteristicId="c6d0-9ce1-eeda-6667" name="Special Rules" value="Limited Ammo, Small Blast, Bloody Mess"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="007f-05e0-5fa8-a121" name="Filth Bomb" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8280,7 +8339,15 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="b9a5-1864-be48-564f" profileTypeId="b5e3-7397-05f7-4ad6" name="Filth Bomb" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="fd5c-1cae-88c0-e179" name="Strength" value="4"/>
+                <characteristic characteristicId="c6d0-9ce1-eeda-6667" name="Special Rules" value="Limited Ammo, Gas, Large Blast, Extra Distracting"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
