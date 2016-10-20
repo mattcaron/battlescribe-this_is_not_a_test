@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="54" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="55" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -11359,7 +11359,20 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="e487-71fc-dd30-fb46" profileTypeId="001e-0c8e-6674-4ca5" name="Actuated Gauntlet" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2847-9f4f-a9f4-2119" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="c891-541f-47d5-ec59" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="8eef-bd06-288e-f910" name="Strength" value="STR+3"/>
+                <characteristic characteristicId="0e78-286a-3921-5068" name="Reliability" value="2"/>
+                <characteristic characteristicId="c614-c8aa-a43d-0de8" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="b115-7203-20f6-70a7" name="Special Rules" value="Malfunction Prone"/>
+                <characteristic characteristicId="f7ed-fcdf-6e3f-0e16" name="Scarcity" value="Rare"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="09bb-04ad-22a6-e321" name="Blast Hammer" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11376,7 +11389,20 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="049c-5012-64fd-89b3" profileTypeId="001e-0c8e-6674-4ca5" name="Blast Hammer" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2847-9f4f-a9f4-2119" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="c891-541f-47d5-ec59" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="8eef-bd06-288e-f910" name="Strength" value="STR+3"/>
+                <characteristic characteristicId="0e78-286a-3921-5068" name="Reliability" value="2"/>
+                <characteristic characteristicId="c614-c8aa-a43d-0de8" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="b115-7203-20f6-70a7" name="Special Rules" value="Heavy, Ignore Armor (1), Malfunction Prone"/>
+                <characteristic characteristicId="f7ed-fcdf-6e3f-0e16" name="Scarcity" value="Ultra Rare"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="9328-e691-0c1c-0338" name="Chainblade" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11393,7 +11419,20 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="82bd-76b2-2b00-a2a8" profileTypeId="001e-0c8e-6674-4ca5" name="Chainblade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2847-9f4f-a9f4-2119" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="c891-541f-47d5-ec59" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="8eef-bd06-288e-f910" name="Strength" value="STR+2"/>
+                <characteristic characteristicId="0e78-286a-3921-5068" name="Reliability" value="1"/>
+                <characteristic characteristicId="c614-c8aa-a43d-0de8" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="b115-7203-20f6-70a7" name="Special Rules" value="Balanced, Malfunction Prone"/>
+                <characteristic characteristicId="f7ed-fcdf-6e3f-0e16" name="Scarcity" value="Sporadic"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="f3dc-c5ec-0699-a233" name="Force Blade" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11410,7 +11449,20 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="be60-578d-a0dd-9f47" profileTypeId="001e-0c8e-6674-4ca5" name="Force Blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2847-9f4f-a9f4-2119" name="Range - Melee" value="Base"/>
+                <characteristic characteristicId="c891-541f-47d5-ec59" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="8eef-bd06-288e-f910" name="Strength" value="STR+2"/>
+                <characteristic characteristicId="0e78-286a-3921-5068" name="Reliability" value="2"/>
+                <characteristic characteristicId="c614-c8aa-a43d-0de8" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="b115-7203-20f6-70a7" name="Special Rules" value="Ignore Armor (2), Malfunction Prone"/>
+                <characteristic characteristicId="f7ed-fcdf-6e3f-0e16" name="Scarcity" value="Rare"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="dc26-652c-0e28-1d43" name="Monofilament Whip" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11427,7 +11479,20 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="ab90-15cb-3dae-5a5e" profileTypeId="001e-0c8e-6674-4ca5" name="Monofilament Whip" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="2847-9f4f-a9f4-2119" name="Range - Melee" value="2&quot;"/>
+                <characteristic characteristicId="c891-541f-47d5-ec59" name="Range - Thrown" value="N/A"/>
+                <characteristic characteristicId="8eef-bd06-288e-f910" name="Strength" value="STR+1"/>
+                <characteristic characteristicId="0e78-286a-3921-5068" name="Reliability" value="1"/>
+                <characteristic characteristicId="c614-c8aa-a43d-0de8" name="1H/2H" value="1H"/>
+                <characteristic characteristicId="b115-7203-20f6-70a7" name="Special Rules" value="Ignore Armor (2), Malfunction Prone"/>
+                <characteristic characteristicId="f7ed-fcdf-6e3f-0e16" name="Scarcity" value="Scarce"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
