@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="58" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="59" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -5056,7 +5056,18 @@
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="afaf-7310-746f-ead0" profileTypeId="d6fe-433d-51d6-204a" name="Bayonet" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="5d1b-619e-2a69-f924" name="Range - Melee" value="Base"/>
+            <characteristic characteristicId="9a20-abf3-fcfc-8f07" name="Range - Thrown" value="N/A"/>
+            <characteristic characteristicId="ef92-7bcd-59d6-dcca" name="Strength" value="STR+1"/>
+            <characteristic characteristicId="b1a4-dc49-dc4e-a319" name="1H/2H" value="N/A"/>
+            <characteristic characteristicId="90f8-7f9d-1357-daf1" name="Special Rules" value="Does not count against Carry Capacity."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="0ec0-4c1a-938a-810c" name="Berserker Brew" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11140,7 +11151,17 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="c320-2dd4-f0f6-5a2f" profileTypeId="f14b-ae9b-94e9-4603" name="Power Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="1ddd-fe0e-5854-0410" name="Armor Bonus (Melee)" value="+4"/>
+                <characteristic characteristicId="aefc-89ae-cc13-0427" name="Armor Bonus (Ranged)" value="+4"/>
+                <characteristic characteristicId="c420-cc09-e7b6-320d" name="Special Rules" value="+2 to bearer&apos;s strenght, counts as a biohazard suit, Malfunction Prone, Armored Plating"/>
+                <characteristic characteristicId="8e44-6b17-0472-a29e" name="Rarity" value="Ultra Rare"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="322a-052b-b3d2-57ed" name="Shock Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11180,7 +11201,17 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="611c-121f-0b85-18cd" profileTypeId="f14b-ae9b-94e9-4603" name="Shock Shield" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="1ddd-fe0e-5854-0410" name="Armor Bonus (Melee)" value="+2"/>
+                <characteristic characteristicId="aefc-89ae-cc13-0427" name="Armor Bonus (Ranged)" value="+0"/>
+                <characteristic characteristicId="c420-cc09-e7b6-320d" name="Special Rules" value="Malfunction Prone, Shield, Special Melee Attack"/>
+                <characteristic characteristicId="8e44-6b17-0472-a29e" name="Rarity" value="Scarce"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="b8b7-4cf1-c5d2-1209" name="Stealth Armor" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11220,7 +11251,17 @@
           </entryGroups>
           <modifiers/>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="a0f5-4824-61d1-3cef" profileTypeId="f14b-ae9b-94e9-4603" name="Stealth Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="1ddd-fe0e-5854-0410" name="Armor Bonus (Melee)" value="+1"/>
+                <characteristic characteristicId="aefc-89ae-cc13-0427" name="Armor Bonus (Ranged)" value="+2"/>
+                <characteristic characteristicId="c420-cc09-e7b6-320d" name="Special Rules" value="-1 to Movement Stat, test to fire at wearer from over 12&quot;, Malfunction Prone"/>
+                <characteristic characteristicId="8e44-6b17-0472-a29e" name="Rarity" value="Rare"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>

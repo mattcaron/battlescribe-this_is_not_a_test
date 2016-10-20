@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1e53-118f-384d-3d5a" revision="12" battleScribeVersion="1.15" name="This is Not a Test" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1e53-118f-384d-3d5a" revision="13" battleScribeVersion="1.15" name="This is Not a Test" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="2083-3ad1-b1ec-abf4" name="Warband" minSelections="1" maxSelections="24" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -121,6 +121,14 @@
         <characteristic id="8166-85a0-bcbc-b421" name="Strength"/>
         <characteristic id="6ec3-932f-0a5f-5369" name="Special Rules"/>
         <characteristic id="03d7-3a3b-edc7-cabc" name="Rarity"/>
+      </characteristics>
+    </profileType>
+    <profileType id="f14b-ae9b-94e9-4603" name="Relic Armor">
+      <characteristics>
+        <characteristic id="1ddd-fe0e-5854-0410" name="Armor Bonus (Melee)"/>
+        <characteristic id="aefc-89ae-cc13-0427" name="Armor Bonus (Ranged)"/>
+        <characteristic id="c420-cc09-e7b6-320d" name="Special Rules"/>
+        <characteristic id="8e44-6b17-0472-a29e" name="Rarity"/>
       </characteristics>
     </profileType>
   </profileTypes>
