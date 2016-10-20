@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" revision="51" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" revision="52" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" battleScribeVersion="1.15" name="TnT Baseline" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="2c6b-9e05-0116-5742" name="*Sample Elite" points="0.0" categoryId="db17-468b-a4ab-158d" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries>
@@ -11863,7 +11863,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="b326-e8cf-3ba9-f0a7" profileTypeId="232d-8609-4656-e6a9" name="Flamethrower" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="Flame Template"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6&quot;"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Flammable, Limited Ammo"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="485d-f0d4-7e90-f0b1" name="Light Machine Gun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11887,7 +11898,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="601e-fe3a-1c6c-3529" profileTypeId="232d-8609-4656-e6a9" name="Light Machine Gun" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="36&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="8"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Burst, Move or Fire"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="c1a4-17ae-f2b0-550e" name="Grenade Launcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11911,7 +11933,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="e4ae-7c2f-2bc2-c380" profileTypeId="232d-8609-4656-e6a9" name="Grenade Launcher" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="24&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="7"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Limited Ammo, Deviate, Small Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="2e8d-0b13-3cb5-84cb" name="Minigun" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11935,7 +11968,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="a268-6af3-d5a4-1ef9" profileTypeId="232d-8609-4656-e6a9" name="Minigun" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="36&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="6"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="3"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Burst, Hail of Lead, Move or Fire"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
         <entry id="18dc-6a83-4305-0ca4" name="Missile Launcher" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11959,7 +12003,18 @@
             </modifier>
           </modifiers>
           <rules/>
-          <profiles/>
+          <profiles>
+            <profile id="d71c-76ac-c66a-f9b0" profileTypeId="232d-8609-4656-e6a9" name="Missile Launcher" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c7c1-91bf-6327-c43e" name="Max Range" value="36&quot;"/>
+                <characteristic characteristicId="5ab0-e20a-98a4-4a21" name="Strength" value="9"/>
+                <characteristic characteristicId="1f89-7a5c-32fe-1ed2" name="Reliability" value="2"/>
+                <characteristic characteristicId="1c76-59b7-bc63-1d3a" name="1H/2H" value="2H"/>
+                <characteristic characteristicId="941b-2b2a-636d-23bd" name="Special Rules" value="Limited Ammo, Move or Fire, Anti Armor/Small Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
           <links/>
         </entry>
       </entries>
