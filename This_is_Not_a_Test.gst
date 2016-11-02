@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1e53-118f-384d-3d5a" revision="14" battleScribeVersion="1.15" name="This is Not a Test" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="1e53-118f-384d-3d5a" revision="15" battleScribeVersion="1.15" name="This is Not a Test" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="2083-3ad1-b1ec-abf4" name="Warband" minSelections="1" maxSelections="24" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -128,6 +128,18 @@
         <characteristic id="aefc-89ae-cc13-0427" name="Armor Bonus (Ranged)"/>
         <characteristic id="c420-cc09-e7b6-320d" name="Special Rules"/>
         <characteristic id="8e44-6b17-0472-a29e" name="Rarity"/>
+      </characteristics>
+    </profileType>
+    <profileType id="af73-9467-8537-a3f4" name="Model">
+      <characteristics>
+        <characteristic id="83f1-899b-6509-e2dc" name="Type"/>
+        <characteristic id="4def-4bef-e42a-f262" name="Defense"/>
+        <characteristic id="757b-36ba-5f57-60eb" name="Wounds"/>
+        <characteristic id="fd71-598a-c83d-d09c" name="Move"/>
+        <characteristic id="ad0e-179a-f54c-2641" name="Melee"/>
+        <characteristic id="1978-8261-8449-edbe" name="Ranged"/>
+        <characteristic id="fe7d-78b8-51a6-e356" name="Strength"/>
+        <characteristic id="4b87-a423-c470-af39" name="Mettle"/>
       </characteristics>
     </profileType>
   </profileTypes>
