@@ -1707,7 +1707,7 @@
         <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="10fa-c850-fca9-d9b3" name="Champion" hidden="false" collective="false" categoryEntryId="db17-468b-a4ab-158d" type="model">
+    <selectionEntry id="10fa-c850-fca9-d9b3" name="Tribal Champion" hidden="false" collective="false" categoryEntryId="db17-468b-a4ab-158d" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
