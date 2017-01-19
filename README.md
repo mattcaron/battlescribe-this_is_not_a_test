@@ -64,6 +64,10 @@ Mutants
 --------
 1. Implement detriment requirements.
 
+Remnants
+--------
+1. Define and implement all restrictions (if possible).
+
 Will not be implemented (and why)
 =================================
 
@@ -230,3 +234,16 @@ p.89 (Preservers warband special rules):
     limit. "
     * Implemented by incrementing maxInForce by 1 for each Reclaimer
       in warband for Power Armor.
+
+Remnants and Mutant Cannibals
+-----------------------------
+
+Per Chris Layfield, who wrote the Remnants, via the Facebook group:
+
+> When I wrote that I excluded them because of the cannibalism. I
+> considered them so heinous that it would be reviled by everyone and
+> who could ever trust one in a warband and if you were to join one
+> lead by some mutant cannibals then you'd surely have to become a
+> cannibal or potentially be a meal.
+
+So, Mutant Cannibals can't be Remnants.
