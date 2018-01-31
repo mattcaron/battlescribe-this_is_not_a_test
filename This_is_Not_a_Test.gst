@@ -1,5 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1e53-118f-384d-3d5a" name="This is Not a Test" revision="16" battleScribeVersion="2.00" authorName="Ian O&apos;Brien" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="1e53-118f-384d-3d5a" name="This is Not a Test" revision="16" authorName="Ian O'Brien">
+<categoryEntries>
+<categoryEntry id="2742-f6e0-6cfd-0438" name="Leader" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="db17-468b-a4ab-158d" name="Elite" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="41a5-6287-0737-8014" name="Rank and File" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="8e1d-f802-edf5-1ac2" name="Specialist" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="8d56-a414-8c99-d01d" name="Faction" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="7ad0-7249-819b-cc4c" name="Freelancer" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+</categoryEntries>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -89,16 +132,8 @@
   </profileTypes>
   <forceEntries>
     <forceEntry id="2083-3ad1-b1ec-abf4" name="Warband" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="24.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
-      </constraints>
-      <categoryEntries>
-        <categoryEntry id="2742-f6e0-6cfd-0438" name="Leader" hidden="false">
+<categoryLinks>
+<categoryLink id="2083-3ad1-b1ec-abf4-2742-f6e0-6cfd-0438" targetId="2742-f6e0-6cfd-0438" name="Leader" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -107,8 +142,8 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="db17-468b-a4ab-158d" name="Elite" hidden="false">
+        </categoryLink>
+<categoryLink id="2083-3ad1-b1ec-abf4-db17-468b-a4ab-158d" targetId="db17-468b-a4ab-158d" name="Elite" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -116,15 +151,15 @@
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="41a5-6287-0737-8014" name="Rank and File" hidden="false">
+        </categoryLink>
+<categoryLink id="2083-3ad1-b1ec-abf4-41a5-6287-0737-8014" targetId="41a5-6287-0737-8014" name="Rank and File" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="8e1d-f802-edf5-1ac2" name="Specialist" hidden="false">
+        </categoryLink>
+<categoryLink id="2083-3ad1-b1ec-abf4-8e1d-f802-edf5-1ac2" targetId="8e1d-f802-edf5-1ac2" name="Specialist" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -175,8 +210,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="8d56-a414-8c99-d01d" name="Faction" hidden="false">
+        </categoryLink>
+<categoryLink id="2083-3ad1-b1ec-abf4-8d56-a414-8c99-d01d" targetId="8d56-a414-8c99-d01d" name="Faction" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -185,15 +220,24 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="7ad0-7249-819b-cc4c" name="Freelancer" hidden="false">
+        </categoryLink>
+<categoryLink id="2083-3ad1-b1ec-abf4-7ad0-7249-819b-cc4c" targetId="7ad0-7249-819b-cc4c" name="Freelancer" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-      </categoryEntries>
+        </categoryLink>
+</categoryLinks>
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="24.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
+      </constraints>
+      
       <forceEntries/>
     </forceEntry>
   </forceEntries>
