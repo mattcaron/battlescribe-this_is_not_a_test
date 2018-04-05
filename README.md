@@ -44,9 +44,10 @@ TODO List
 
 General
 -------
-1. Page references for.. well.. everything.
-2. Add weapons statistics (Okay per conversation w/ Joey)
-3. Add unit statistics (Also okay per conversation w/ Joey)
+1. Add items from the Wasteland Companion
+2. Page references for.. well.. everything.
+3. Add weapons statistics (Okay per conversation w/ Joey)
+4. Add unit statistics (Also okay per conversation w/ Joey)
 
 Preservers
 -----------
