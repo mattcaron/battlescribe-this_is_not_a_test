@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" name="TnT Baseline" revision="66" battleScribeVersion="2.01" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" name="TnT Baseline" revision="67" battleScribeVersion="2.01" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -20611,7 +20611,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="7.0"/>
+                    <cost name="pts" costTypeId="points" value="10.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -20675,7 +20675,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="7.0"/>
+            <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3131-d196-5ba1-8893" name="Semi-Auto Carbine (G)" hidden="false" collective="false" type="upgrade">
@@ -20945,7 +20945,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" costTypeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -20995,7 +20995,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
+            <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c52c-c048-eec4-eed2" name="Semi-Auto Sniper Rifle (G)" hidden="false" collective="false" type="upgrade">
@@ -21166,7 +21166,7 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
+                    <cost name="pts" costTypeId="points" value="12.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -21216,7 +21216,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
+            <cost name="pts" costTypeId="points" value="12.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
