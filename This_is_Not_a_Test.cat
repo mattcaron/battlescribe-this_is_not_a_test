@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c21e-64be-62fe-f87a" name="TnT Baseline" revision="68" battleScribeVersion="2.01" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c21e-64be-62fe-f87a" name="TnT Baseline" revision="69" battleScribeVersion="2.01" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6587,7 +6587,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b4c5-9901-c6cf-a098" hidden="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry">
+        <entryLink id="b4c5-9901-c6cf-a098" name="Loadout" hidden="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10591,7 +10591,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c5f5-d775-1d5d-f411" hidden="false" targetId="31e1-6f90-5a8f-eefc" type="selectionEntry">
+        <entryLink id="c5f5-d775-1d5d-f411" name="Relic Melee Weapons" hidden="false" targetId="31e1-6f90-5a8f-eefc" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10599,7 +10599,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a92f-4267-965f-df7a" hidden="false" targetId="a2b9-a58f-9b3f-d2f4" type="selectionEntry">
+        <entryLink id="a92f-4267-965f-df7a" name="Relic Ranged Weapons" hidden="false" targetId="a2b9-a58f-9b3f-d2f4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13116,7 +13116,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="cf02-f5f4-c1a2-c3e7" hidden="false" targetId="7982-41b0-1c22-d3d0" type="selectionEntry">
+        <entryLink id="cf02-f5f4-c1a2-c3e7" name="Relics" hidden="false" targetId="7982-41b0-1c22-d3d0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14309,7 +14309,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="8196-68a5-8519-9142" hidden="false" targetId="ebbe-0f0c-70c3-cddf" type="selectionEntryGroup">
+        <entryLink id="8196-68a5-8519-9142" name="Relic Melee Weapons" hidden="false" targetId="ebbe-0f0c-70c3-cddf" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14335,7 +14335,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="ed6e-ae46-be56-942c" hidden="false" targetId="ebbe-0f0c-70c3-cddf" type="selectionEntryGroup">
+        <entryLink id="ed6e-ae46-be56-942c" name="Relic Ranged Weapons" hidden="false" targetId="64af-11f8-6eec-6ca2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14387,7 +14387,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="3ba7-3d24-8fc8-6711" hidden="false" targetId="f2b9-dafd-1839-2be3" type="selectionEntryGroup">
+        <entryLink id="3ba7-3d24-8fc8-6711" name="Relics" hidden="false" targetId="f2b9-dafd-1839-2be3" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25033,7 +25033,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="01d0-5cc8-f305-4e04" hidden="false" targetId="46e6-5c66-f6f3-08d5" type="selectionEntryGroup">
+        <entryLink id="01d0-5cc8-f305-4e04" name="Relic Support Weapons" hidden="false" targetId="46e6-5c66-f6f3-08d5" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -25093,7 +25093,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="22fc-7248-8f7c-c8ee" hidden="false" targetId="ebbe-0f0c-70c3-cddf" type="selectionEntryGroup">
+        <entryLink id="22fc-7248-8f7c-c8ee" name="Relic Melee Weapons" hidden="false" targetId="ebbe-0f0c-70c3-cddf" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
