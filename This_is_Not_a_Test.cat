@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="debc-e9d1-90ae-4b34" name="TnT Baseline" revision="72" battleScribeVersion="2.02" library="false" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="debc-e9d1-90ae-4b34" name="TnT Baseline" revision="74" battleScribeVersion="2.02" library="false" gameSystemId="1e53-118f-384d-3d5a" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="c21e-64be-pubN97697" name="TNT"/>
     <publication id="c21e-64be-pubN110692" name="Wasteland Companion"/>
@@ -808,8 +808,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="7b5d-2a6d-dd25-3bfe" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
-        <entryLink id="e8eb-e04c-a2b6-d4ed" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+        <entryLink id="7b5d-2a6d-dd25-3bfe" name="Campaign Progression" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="e8eb-e04c-a2b6-d4ed" name="Loadout" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -855,7 +855,7 @@
           </constraints>
           <entryLinks>
             <entryLink id="5832-6722-0bb3-fae5" hidden="false" collective="false" targetId="8496-7b94-9dba-201f" type="selectionEntryGroup"/>
-            <entryLink id="b30b-b958-4129-a557" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="b30b-b958-4129-a557" name="Marksmanship Skills" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
             <entryLink id="a967-d5c3-629d-229b" hidden="false" collective="false" targetId="9674-c228-ed04-df10" type="selectionEntryGroup"/>
             <entryLink id="af95-4a62-ab8f-367c" hidden="false" collective="false" targetId="51b0-230d-043d-e42e" type="selectionEntryGroup"/>
             <entryLink id="82f5-6d99-0fc4-a678" hidden="false" collective="false" targetId="9255-566b-4ae6-4fa7" type="selectionEntry"/>
@@ -4336,8 +4336,8 @@
             <entryLink id="d63a-562e-ee15-f013" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
             <entryLink id="e3b7-bb3a-98eb-7766" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
             <entryLink id="d2b0-960a-f171-99c6" hidden="false" collective="false" targetId="51b0-230d-043d-e42e" type="selectionEntryGroup"/>
-            <entryLink id="d7c6-377d-934c-3909" hidden="false" collective="false" targetId="1581-b5c1-97a7-3879" type="selectionEntry"/>
-            <entryLink id="d019-7e19-2c0c-79e4" hidden="false" collective="false" targetId="1e49-96b8-1da2-2ca3" type="selectionEntry"/>
+            <entryLink id="d7c6-377d-934c-3909" name="Trekker" hidden="false" collective="false" targetId="1581-b5c1-97a7-3879" type="selectionEntry"/>
+            <entryLink id="d019-7e19-2c0c-79e4" name="Reconnoiter" hidden="false" collective="false" targetId="1e49-96b8-1da2-2ca3" type="selectionEntry"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0.0"/>
@@ -4407,8 +4407,8 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="3b4a-7209-83ca-940c" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
-        <entryLink id="169b-2d41-3cbb-7b51" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+        <entryLink id="3b4a-7209-83ca-940c" name="Campaign Progression" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="169b-2d41-3cbb-7b51" name="Loadout" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80.0"/>
@@ -5532,9 +5532,683 @@
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8945-3b12-54fb-d28d" name="Settlement Leader" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3972-ef8a-552f-4815" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="7ed5-355d-b63f-d2c3" name="Settlement Leader" publicationId="c21e-64be-pubN110692" page="39" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">2</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">5</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">5</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">6</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="102e-72a5-2e69-1478" hidden="false" targetId="2742-f6e0-6cfd-0438" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0370-876d-2bac-fe55" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1b49-8d8b-4d77-3f3a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="05bb-c89a-4ae6-9a4c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6b61-3497-908f-8f5c" hidden="false" collective="false" targetId="8496-7b94-9dba-201f" type="selectionEntryGroup"/>
+            <entryLink id="0720-4148-341f-a07f" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="c94d-4fb1-4832-e589" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="d16c-f4f1-7ee7-36d5" name="Tenacity Skills" hidden="false" collective="false" targetId="9674-c228-ed04-df10" type="selectionEntryGroup"/>
+            <entryLink id="29a1-211a-2b91-7b20" hidden="false" collective="false" targetId="3481-b3df-24cf-ce82" type="selectionEntryGroup"/>
+            <entryLink id="1110-326f-a51d-8840" hidden="false" collective="false" targetId="927a-d2aa-a5d8-9f05" type="selectionEntryGroup"/>
+            <entryLink id="0f61-0392-a0e5-9326" hidden="false" collective="false" targetId="6086-b5d3-003c-6350" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7bff-f728-27c4-aceb" name="Campaign Progression" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="fd9f-111a-d75b-5e0e" name="Loadout" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5157-287b-b306-7f5f" name="Militant Leader" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cda3-26cc-d356-ee40" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e031-7284-7eac-89bf" name="Militant Leader" publicationId="c21e-64be-pubN110692" page="39" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">2</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">5</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">5</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">6</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="24e6-6415-1ed2-c355" hidden="false" targetId="2742-f6e0-6cfd-0438" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9dc0-9ff5-81c1-59c7" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2354-c201-24ae-89b1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="21dc-9c20-0635-26cd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bc95-4c1b-8534-3901" hidden="false" collective="false" targetId="8496-7b94-9dba-201f" type="selectionEntryGroup"/>
+            <entryLink id="9f8d-722b-16b2-ebe8" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="090f-5193-a250-fa54" name="Quickness Skills" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="0b69-8dd0-7815-e2bf" name="Tenacity Skills" hidden="false" collective="false" targetId="9674-c228-ed04-df10" type="selectionEntryGroup"/>
+            <entryLink id="bb98-20d6-4328-613d" hidden="false" collective="false" targetId="3481-b3df-24cf-ce82" type="selectionEntryGroup"/>
+            <entryLink id="17ab-a50f-52d2-f719" hidden="false" collective="false" targetId="927a-d2aa-a5d8-9f05" type="selectionEntryGroup"/>
+            <entryLink id="e4fe-70a6-5c4b-b1c5" name="Brawn Skills" hidden="false" collective="false" targetId="6086-b5d3-003c-6350" type="selectionEntryGroup"/>
+            <entryLink id="e904-9636-2286-fbf9" name="Iron Discipline" hidden="false" collective="false" targetId="d3db-963a-6bbf-b4cc" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7122-1bf6-7ad9-3c60" name="Campaign Progression" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="9528-f6e0-3d10-16bf" name="Loadout" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f534-e473-91b7-106b" name="Sheriff" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adc8-0bff-3923-b43f" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1768-01d0-8d6f-e541" name="Sheriff" publicationId="c21e-64be-pubN110692" page="40" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">5</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">5</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f8a4-ff84-7367-9f9f" hidden="false" targetId="db17-468b-a4ab-158d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6720-84d2-b49b-bd86" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f0b8-8769-1cd2-738b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a725-76f2-2189-47a6" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7e45-28a1-0f3d-fd40" name="Leadership Skills" hidden="false" collective="false" targetId="8496-7b94-9dba-201f" type="selectionEntryGroup"/>
+            <entryLink id="609f-00f7-1887-935d" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="71ba-287f-0d17-9cb4" name="Quickness Skills" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="dc6b-3370-3f21-c09b" name="Tenacity Skills" hidden="false" collective="false" targetId="9674-c228-ed04-df10" type="selectionEntryGroup"/>
+            <entryLink id="9f11-4c98-1e29-e240" name="Motivator" hidden="false" collective="false" targetId="9255-566b-4ae6-4fa7" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b2a1-a58d-e839-b760" name="Loadout" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+        <entryLink id="9746-5f43-c5fe-a689" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a6a6-bdf0-0653-35f0" name="Missionary" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="071f-ef88-229f-50f2" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="a431-5449-851e-d8b5" name="Missionary" publicationId="c21e-64be-pubN110692" page="40" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">4</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">5</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f7b9-cd82-42fc-da23" hidden="false" targetId="db17-468b-a4ab-158d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ce99-d505-7605-4420" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="347e-e431-ea57-5c86" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b82-39dc-e8ea-f6ed" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5fbb-7620-f68b-257e" name="Leadership Skills" hidden="false" collective="false" targetId="8496-7b94-9dba-201f" type="selectionEntryGroup"/>
+            <entryLink id="0c16-c645-0580-3bff" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="6b9b-8df2-3cfe-aa8b" name="Quickness Skills" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="1ce7-ed98-5b00-7122" name="Tenacity Skills" hidden="false" collective="false" targetId="9674-c228-ed04-df10" type="selectionEntryGroup"/>
+            <entryLink id="388b-4710-073a-5932" name="Confident" hidden="false" collective="false" targetId="a512-6496-2211-cdf1" type="selectionEntry"/>
+            <entryLink id="a278-3f3d-1efe-1e3c" name="Bold" hidden="false" collective="false" targetId="11db-b62e-d03f-71f0" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b0b4-7298-c000-ad58" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+        <entryLink id="aa3c-f418-bfb8-f3ed" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="51ab-7b2f-2dc8-6de9" name="Prominent Citizen" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8945-3b12-54fb-d28d" type="equalTo"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="61b1-7326-f946-c9f3" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8945-3b12-54fb-d28d" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ed-e93e-9beb-5761" type="min"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="61b1-7326-f946-c9f3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bb27-9986-4339-d80c" name="Prominent Citizen" publicationId="c21e-64be-pubN110692" page="40" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">4</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">5</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="825e-9dcd-7831-c645" hidden="false" targetId="db17-468b-a4ab-158d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4927-40a9-e133-658f" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="49f8-4351-deb3-18f9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0371-b8d3-1521-1355" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c3bc-3de5-2a67-8658" name="Marksmanship Skills" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="e71f-d3d9-f783-3890" name="Quickness Skills" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="b8f1-09fd-65f4-9e0a" name="Scavenger" hidden="false" collective="false" targetId="91a9-bbe9-712c-a408" type="selectionEntry"/>
+            <entryLink id="070a-40fa-bf10-2187" name="Smarts Skills" hidden="false" collective="false" targetId="3481-b3df-24cf-ce82" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="9e87-6068-0fd3-85a4" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+        <entryLink id="dcf3-6f18-0a87-007e" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="45.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f99-8e09-f44c-f45f" name="Mysterious Stranger" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a0a4-7025-8c7a-49cc" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="812f-c3cb-23ee-ea9b" type="min"/>
+        <constraint field="selections" scope="2083-3ad1-b1ec-abf4" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a13-04be-7549-f9ab" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1e5c-e306-3b06-0597" name="Mysterious Stranger" publicationId="c21e-64be-pubN110692" page="41" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">4</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">5</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="60c4-1287-ea62-38a9" hidden="false" targetId="db17-468b-a4ab-158d" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="634b-d960-accf-2b98" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2bd8-9c86-66e8-8966" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="933f-21ab-b0f8-f24e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e050-fc12-a2d3-2ad1" name="Marksmanship Skills" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="77f2-7209-0865-8fa0" name="Tenacity Skills" hidden="false" collective="false" targetId="9674-c228-ed04-df10" type="selectionEntryGroup"/>
+            <entryLink id="8f94-fc9b-78d6-cf9d" name="Dark Past" hidden="false" collective="false" targetId="3ed6-e053-665f-85be" type="selectionEntry"/>
+            <entryLink id="b0e5-3355-8442-f269" name="Survival Skills" hidden="false" collective="false" targetId="51b0-230d-043d-e42e" type="selectionEntryGroup"/>
+            <entryLink id="c695-9d6d-8449-ea48" name="Melee Skills" hidden="false" collective="false" targetId="927a-d2aa-a5d8-9f05" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7472-2471-fe69-bdaa" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+        <entryLink id="2b56-7bfe-52b1-8d04" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="577b-b323-a086-bad2" name="Militiaman" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a63c-fe92-8664-45ef" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="46a8-756c-36e2-14a5" name="Militiaman" publicationId="c21e-64be-pubN110692" page="42" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">3</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">4</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="86e8-acc1-b468-9f11" hidden="false" targetId="41a5-6287-0737-8014" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f792-8509-6489-0a75" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5a79-f5f2-d125-d676" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d522-b324-ce74-3b7e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="49c0-f06a-22b7-275f" name="Marksmanship Skills" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="9582-9208-079d-1787" name="Melee Skills" hidden="false" collective="false" targetId="927a-d2aa-a5d8-9f05" type="selectionEntryGroup"/>
+            <entryLink id="91ac-d36d-5130-61e3" name="Quickness Skills" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="94a5-6247-3848-393b" name="Soft-bellied" hidden="false" collective="false" targetId="2bd7-fd09-e845-fb3c" type="selectionEntry"/>
+            <entryLink id="9e27-e1f2-d5a6-6dd7" name="Replaceable" hidden="false" collective="false" targetId="d1a1-a44e-cde2-d0bf" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8632-6b14-b419-ed8b" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="fc60-fca0-b7c5-587f" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b11-c809-4b4b-280c" name="Citizen" publicationId="c21e-64be-pubN110692" page="42" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d4f9-8b9c-4783-3279" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="d43b-c108-f53f-7cf8" name="Citizen" publicationId="c21e-64be-pubN110692" page="42" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">3</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">3</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="71c9-0052-2833-c57b" hidden="false" targetId="41a5-6287-0737-8014" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a252-a123-8d83-95e7" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3682-df66-1ed4-d91c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52ab-4f32-dece-72bb" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9ec0-f329-c232-24c8" name="Marksmanship Skills" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="9371-4273-3bdf-adc6" name="Melee Skills" hidden="false" collective="false" targetId="927a-d2aa-a5d8-9f05" type="selectionEntryGroup"/>
+            <entryLink id="ec8b-0ddc-3065-1481" name="Quickness Skills" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="7b74-88d0-691e-a9b3" name="Soft-bellied" hidden="false" collective="false" targetId="2bd7-fd09-e845-fb3c" type="selectionEntry"/>
+            <entryLink id="4b16-42ca-a57f-1423" name="Rag-Tag" hidden="false" collective="false" targetId="8b3d-5515-7cac-1179" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="3930-cb5f-75b7-4740" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="13a7-3565-51fd-2795" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="abec-1082-4050-c947" name="Militia Gunsmith" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b288-8a75-8d40-23fd" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="11f0-be54-05c8-22da" name="Militia Gunsmith" publicationId="c21e-64be-pubN110692" page="42" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">3</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">4</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b643-3ea6-0695-8757" hidden="false" targetId="8e1d-f802-edf5-1ac2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="873f-4b58-0295-e859" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e795-04f2-a584-7d06" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="684b-1e7c-e1aa-81ce" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e4c1-d6c6-6072-172f" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="cc8b-5aef-6e00-09fc" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="9f44-8ed2-6ed2-260f" name="Smarts Skills" hidden="false" collective="false" targetId="3481-b3df-24cf-ce82" type="selectionEntryGroup"/>
+            <entryLink id="7b7d-be33-296d-8848" name="Gunsmith" hidden="false" collective="false" targetId="e41a-d379-5a4d-5205" type="selectionEntry"/>
+            <entryLink id="709d-c439-00d0-6ff8" name="Up-Armed" hidden="false" collective="false" targetId="5ca8-0de1-427c-6961" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34f8-b771-be2f-7ae3" name="Special Options" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4713-bee7-e266-5f8f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3aca-0bf7-dbb0-65b2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a2d8-f05d-e15b-bab9" hidden="false" collective="false" targetId="4092-1772-84c9-1905" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="82fc-f3e4-b9a9-795a" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="90de-25cf-7133-fbf1" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f0b-e837-5d0e-92f2" name="Citizen Medic" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="219f-eaa7-a9fb-c651" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5157-287b-b306-7f5f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8120-00c3-a614-bd28" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="219f-eaa7-a9fb-c651" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4d18-8af0-729c-9a3f" name="Citizen Medic" publicationId="c21e-64be-pubN110692" page="42" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">3</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">4</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d4aa-8fbe-51de-836f" hidden="false" targetId="8e1d-f802-edf5-1ac2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1b42-7606-7505-a1fb" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5659-989f-1369-3cfd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6637-2ee8-399e-58d0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="82b0-e206-e249-729b" name="Marksmanship Skills" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="3016-adac-83d4-5084" hidden="false" collective="false" targetId="0f68-ea4f-fb64-d003" type="selectionEntryGroup"/>
+            <entryLink id="e03a-c017-4c87-e02b" name="Smarts Skills" hidden="false" collective="false" targetId="3481-b3df-24cf-ce82" type="selectionEntryGroup"/>
+            <entryLink id="27a7-9da8-35a6-c405" name="Soft-bellied" hidden="false" collective="false" targetId="2bd7-fd09-e845-fb3c" type="selectionEntry"/>
+            <entryLink id="1d81-a677-7a2f-c0da" name="Medic" hidden="false" collective="false" targetId="fb15-030f-7253-0a4a" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="bfc6-a855-3d0a-c582" name="Campaign Progression" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="674b-880a-c115-5244" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a1a-8c84-2e40-7f9b" name="Regular" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="03dd-c97e-b78f-0cac" type="lessThan"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="56e1-047a-a8aa-c6a3" type="lessThan"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and"/>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="e769-b84c-4155-394a" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5157-287b-b306-7f5f" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="12c7-2281-28f6-969f" type="min"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e769-b84c-4155-394a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a8d7-1a1e-34f2-d936" name="Regular" publicationId="c21e-64be-pubN110692" page="43" hidden="false" typeId="af73-9467-8537-a3f4" typeName="Model">
+          <characteristics>
+            <characteristic name="Type" typeId="83f1-899b-6509-e2dc">Human</characteristic>
+            <characteristic name="Defense" typeId="4def-4bef-e42a-f262">6</characteristic>
+            <characteristic name="Wounds" typeId="757b-36ba-5f57-60eb">1</characteristic>
+            <characteristic name="Move" typeId="fd71-598a-c83d-d09c">5</characteristic>
+            <characteristic name="Melee" typeId="ad0e-179a-f54c-2641">4</characteristic>
+            <characteristic name="Ranged" typeId="1978-8261-8449-edbe">5</characteristic>
+            <characteristic name="Strength" typeId="fe7d-78b8-51a6-e356">5</characteristic>
+            <characteristic name="Mettle" typeId="4b87-a423-c470-af39">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="2ec8-c592-c044-e55b" hidden="false" targetId="8e1d-f802-edf5-1ac2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0442-2411-4fc8-43f4" name="Skills" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0486-b7e0-fc90-51ac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d243-fdbc-c681-221a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c328-8568-d85c-bfe2" name="Marksmanship Skills" hidden="false" collective="false" targetId="7a03-dd72-3924-0e94" type="selectionEntryGroup"/>
+            <entryLink id="1fa6-9b05-cee3-e8d6" name="Melee Skills" hidden="false" collective="false" targetId="927a-d2aa-a5d8-9f05" type="selectionEntryGroup"/>
+            <entryLink id="c540-594a-edc8-5cc3" name="Tenacity Skills" hidden="false" collective="false" targetId="9674-c228-ed04-df10" type="selectionEntryGroup"/>
+            <entryLink id="9e3a-d48c-8f7f-6b13" name="Brave" hidden="false" collective="false" targetId="33a0-0fed-918d-a713" type="selectionEntry"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2077-0d7d-f288-51fa" name="Campaign Progression" hidden="false" collective="false" targetId="be46-82a6-e32e-fd0e" type="selectionEntry"/>
+        <entryLink id="9880-91f6-dfc9-8a70" hidden="false" collective="false" targetId="19e6-12c3-230c-5bcf" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="28.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="97c0-7ba0-ad94-7a1f" hidden="false" collective="false" targetId="03f9-e3f5-bc6a-79e5" type="selectionEntry">
+    <entryLink id="97c0-7ba0-ad94-7a1f" name="Caravanners" hidden="false" collective="false" targetId="03f9-e3f5-bc6a-79e5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="97c0-7ba0-ad94-7a1f-8d56-a414-8c99-d01d" hidden="false" targetId="8d56-a414-8c99-d01d" primary="true"/>
       </categoryLinks>
@@ -5569,7 +6243,7 @@
         <categoryLink id="c724-a82f-c2d9-d715-8d56-a414-8c99-d01d" hidden="false" targetId="8d56-a414-8c99-d01d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3020-8da6-a42d-62f9" hidden="false" collective="false" targetId="c089-6aee-b95b-9b92" type="selectionEntry">
+    <entryLink id="3020-8da6-a42d-62f9" name="Mutant Cannibals" hidden="false" collective="false" targetId="c089-6aee-b95b-9b92" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3020-8da6-a42d-62f9-8d56-a414-8c99-d01d" hidden="false" targetId="8d56-a414-8c99-d01d" primary="true"/>
       </categoryLinks>
@@ -5582,6 +6256,11 @@
     <entryLink id="393e-5a4e-252a-56b1" name="Remnants (Survivors)" hidden="false" collective="false" targetId="56e1-047a-a8aa-c6a3" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="393e-5a4e-252a-56b1-8d56-a414-8c99-d01d" hidden="false" targetId="8d56-a414-8c99-d01d" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a0a4-7025-8c7a-49cc" name="Settlers" hidden="false" collective="false" targetId="03dd-c97e-b78f-0cac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="167d-94ba-c002-d4a6" hidden="false" targetId="8d56-a414-8c99-d01d" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -6490,7 +7169,7 @@
         <entryLink id="be0b-48d0-5fad-a699" hidden="false" collective="false" targetId="c39c-654c-75b8-49da" type="selectionEntryGroup"/>
         <entryLink id="d9cb-1692-945c-0bbb" hidden="false" collective="false" targetId="3c4e-ec7c-85fb-af2a" type="selectionEntryGroup"/>
         <entryLink id="50f5-d58b-252d-f7c1" hidden="false" collective="false" targetId="285a-caa2-e648-8680" type="selectionEntryGroup"/>
-        <entryLink id="ce57-30e5-d8a4-96c2" hidden="false" collective="false" targetId="822d-691c-f830-4c04" type="selectionEntryGroup"/>
+        <entryLink id="ce57-30e5-d8a4-96c2" name="Defensive Mutations (Hidden)" hidden="false" collective="false" targetId="822d-691c-f830-4c04" type="selectionEntryGroup"/>
         <entryLink id="f9c0-40f4-5746-034c" hidden="false" collective="false" targetId="2fea-f79c-3b5f-ad1b" type="selectionEntryGroup"/>
         <entryLink id="18aa-7f9d-a7ef-896a" hidden="false" collective="false" targetId="87d1-1fa7-113a-6421" type="selectionEntryGroup"/>
       </entryLinks>
@@ -7033,6 +7712,203 @@
     <selectionEntry id="eb0e-3c84-8b7c-1a0c" name="Remnants (Outcasts)" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7946-e474-8964-9a07" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="03dd-c97e-b78f-0cac" name="Settlers" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="506a-9785-ee33-7ffa" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3db-963a-6bbf-b4cc" name="Iron Discipline" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7b2f-e7e1-aa0d-9e75" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b5a-6bf7-ee84-7071" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e268-89bf-7fd2-bea9" name="*SAMPLE TRAIT*" hidden="true" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93e4-533a-a234-ba49" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2d1-2e1b-7fa9-6103" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8e6f-c63b-3bca-3ef5" name="Lethal Blow" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6300-7f14-8fb0-4e55" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4aec-8daf-42d9-7273" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e99-6d1a-430c-2629" name="Ground Fighter" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="584b-b69d-6917-7533" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="efae-237b-a83d-3754" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6703-ca10-5a7a-834a" name="Desperado" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e906-29f6-09a2-30ab" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9172-f2d0-7ae0-49a4" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f92-ebbb-6f75-6716" name="Careful Shooting" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="666d-6d0e-61a9-3b6e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6966-9eaa-0170-004f" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6296-394d-bfa1-1a15" name="Dive For Cover" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="222d-2d30-db59-6f5a" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bff2-0a1b-1107-9b5d" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1ad-c8ee-d057-0ddb" name="Titanium Jaw" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3f71-0b61-33a2-3275" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="312c-a78f-7340-0ad0" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9453-7154-3732-0224" name="Scramble" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="34c7-6e89-9c2c-bc5f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="65aa-b44d-84bf-e761" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e13-fd94-8e0b-9fc6" name="Duck and Weave" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e55-fe1c-c77f-5cf7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="358b-9b21-d100-f786" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2040-9495-d85a-b209" name="Looter" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f8b4-0129-d0c3-0569" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="53c7-fc69-4b58-ae9b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32f0-6bfb-5051-52fe" name="Tinkerer" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f877-268c-2463-4a67" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4765-9805-ce9c-5897" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="709a-39c2-a73f-8bab" name="Arm Cannon" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a83-8eae-0a1c-17fb" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3d48-7107-2c93-fcc5" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9f7-3db9-eb58-ed49" name="Drive Back" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4ea-16f4-6473-68ab" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a26-17d2-40d6-edc5" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a59-dd52-74be-b7a6" name="Hero" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6078-6836-e10f-a98c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7f1f-af7c-f03b-d6ee" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a0e-9698-f945-0a61" name="No Surrender" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3774-a54d-b955-8eed" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7eb2-53bd-8a61-5715" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b02-eba1-81d4-0d58" name="Audacity" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="680c-8a5e-573f-1845" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d987-4ec6-bf00-b16d" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9578-fb55-d200-b85e" name="Mentor" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ee2-9247-9801-59ed" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d0f-9f32-e84e-3e2d" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e24-e901-8a69-0dbd" name="Observe" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9aaa-42a0-e8ab-6e67" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0fb1-af6e-3f44-5932" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ed6-e053-665f-85be" name="Dark Past" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7236-785b-34eb-9453" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cee7-61d2-c3e5-d530" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1a1-a44e-cde2-d0bf" name="Replaceable" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="673f-3381-30fc-1268" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f086-9f0b-f85e-8c07" type="max"/>
       </constraints>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
